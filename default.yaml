@@ -1,0 +1,10 @@
+metadata:
+  author: Rivo Juicer Wowor 
+  fontfamily: plex-otf
+  rendertitlepage: false
+
+pdf-engine: xelatex
+citeproc: true
+csl: ${.}/ref/apa.csl 
+bibliography: ${.}/ref/references.bib
+template: ${.}/ref/default.latex
