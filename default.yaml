@@ -1,10 +1,9 @@
 metadata:
-  author: Rivo Juicer Wowor 
+  author: Rivo Juicer Wowor (00000059635)
   fontfamily: plex-otf
-  rendertitlepage: false
 
 pdf-engine: xelatex
 citeproc: true
 csl: ${.}/ref/apa.csl 
 bibliography: ${.}/ref/references.bib
-template: ${.}/ref/default.latex
+template: ${.}/ref/default.tex
