@@ -5,5 +5,5 @@ metadata:
 pdf-engine: xelatex
 citeproc: true
 csl: ${.}/ref/apa.csl 
-bibliography: ${.}/ref/references.bib
+bibliography: ${.}/ref/library.bib
 template: ${.}/ref/default.tex

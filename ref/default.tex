@@ -255,7 +255,7 @@ $else$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $endif$
 $else$
-\usepackage[a4paper, left=4cm, right=3cm, bottom=3cm, top=3cm]{geometry}
+\usepackage[a4paper, margin=2.5cm]{geometry}
 $endif$
 $if(beamer)$
 \newif\ifbibliography
@@ -456,12 +456,14 @@ $endif$
 \usepackage{fancyhdr}
 \fancypagestyle{plain}{%
   \fancyhf{}%
-  \lhead{\small{\textbf{$title$}}}%
-  \rhead{\small{\textbf{$author$}}}%
+  \lhead{\footnotesize{\textbf{$title$}}}%
+  % \rhead{\small{\textbf{$author$}}}%
   \fancyfoot[R]{\thepage}%
+  \fancyfoot[L]{\footnotesize{$author$}}
   \renewcommand{\headrulewidth}{0.4pt}% Line at the header invisible
-  \renewcommand{\footrulewidth}{0pt}% Footer line not visible with 0pt
+  \renewcommand{\footrulewidth}{0.4pt}% Footer line not visible with 0pt
 }
+
 
 \pagestyle{plain}
 \setlength{\parindent}{2em}

@@ -32,7 +32,7 @@ Secara alamiah tubuh mansia mengalami perkembangan. Dari manusia lahir hingga de
 - ...
 
 ### Pengembangan Roh
-Pengembangan rohani itu penting karena sisi rohanilah manuusia bisa berbeda dengan makhluk lain seperti hewan.
+Pengembangan rohani itu penting karena sisi rohanilah manusia bisa berbeda dengan makhluk lain seperti hewan.
 
 Cara:
 - Devosi atau beribadah
