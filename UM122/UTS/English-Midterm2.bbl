@@ -1,0 +1,250 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{pemerintahindonesiaUndangUndangNomor112008}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a4c56a63f5e7bb83ea4152b2d59eb903}{%
+           family={{Pemerintah Indonesia}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \strng{fullhash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \strng{bibnamehash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \strng{authorbibnamehash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \strng{authornamehash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \strng{authorfullhash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pemanfaatan Teknologi Informasi, media, dan komunikasi telah mengubah baik perilaku masyarakat maupun peradaban manusia secara global. Perkembangan teknologi informasi dan komunikasi telah pula menyebabkan hubungan dunia menjadi tanpa batas (borderless) dan menyebabkan perubahan sosial, ekonomi, dan budaya secara signifikan berlangsung demikian cepat. Teknologi Informasi saat ini menjadi pedang bermata dua karena selain memberikan kontribusi bagi peningkatan kesejahteraan, kemajuan, dan peradaban manusia, sekaligus menjadi sarana efektif perbuatan melawan hukum.}
+      \field{langid}{indonesian}
+      \field{number}{11}
+      \field{title}{{Undang-Undang Nomor 11 Tahun 2008}}
+      \field{year}{2008}
+      \field{pages}{18}
+      \range{pages}{1}
+      \verb{file}
+      \verb H\:\\kuliah\\zotero\\storage\\6GNY55VR\\UNDANG-UNDANG REPUBLIK INDONESIA.pdf
+      \endverb
+    \endentry
+    \entry{kurniaPelanggaranHakCipta}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cce849695b6661e5fc130daedb977fba}{%
+           family={Kurnia},
+           familyi={K\bibinitperiod},
+           given={Abi\bibnamedelima Jam'an},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{cce849695b6661e5fc130daedb977fba}
+      \strng{fullhash}{cce849695b6661e5fc130daedb977fba}
+      \strng{bibnamehash}{cce849695b6661e5fc130daedb977fba}
+      \strng{authorbibnamehash}{cce849695b6661e5fc130daedb977fba}
+      \strng{authornamehash}{cce849695b6661e5fc130daedb977fba}
+      \strng{authorfullhash}{cce849695b6661e5fc130daedb977fba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{$<$}p{$>$}Apakah di Indonesia sudah ada peraturan yang mengatur tentang dunia {$<$}em{$>$}Cyber{$<$}/em{$>$} internet terutama tentang hak cipta naskah. Misalnya terjadi pengambilan naskah lewat internet sebagian atau seluruhnya dan kemudian di-posting (dipasang pada web lain), apakah hal ini bisa dituntut dengan hukum yang berlaku di Indonesia.{$<$}/p{$>$}}
+      \field{journaltitle}{hukumonline.com}
+      \field{langid}{indonesian}
+      \field{title}{{Pelanggaran Hak Cipta Mengambil Naskah di Internet - Klinik Hukumonline}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb H\:\\kuliah\\zotero\\storage\\Y6EYU6BI\\pelanggaran-hak-cipta-mengambil-naskah-di-internet.html
+      \endverb
+      \verb{urlraw}
+      \verb https://hukumonline.com/klinik/detail/ulasan/cl90/pelanggaran-hak-cipta-mengambil-naskah-di-internet/
+      \endverb
+      \verb{url}
+      \verb https://hukumonline.com/klinik/detail/ulasan/cl90/pelanggaran-hak-cipta-mengambil-naskah-di-internet/
+      \endverb
+    \endentry
+    \entry{pemerintahindonesiaUndangUndangNomor282014}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a4c56a63f5e7bb83ea4152b2d59eb903}{%
+           family={{Pemerintah Indonesia}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \strng{fullhash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \strng{bibnamehash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \strng{authorbibnamehash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \strng{authornamehash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \strng{authorfullhash}{a4c56a63f5e7bb83ea4152b2d59eb903}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hak Cipta merupakan salah satu bagian dari kekayaan intelektual yang memiliki ruang lingkup objek dilindungi paling luas, karena mencakup ilmu pengetahuan, seni dan sastra (art and literary) yang di dalamnya mencakup pula program komputer. Perkembangan ekonomi kreatif yang menjadi salah satu andalan Indonesia dan berbagai negara dan berkembang pesatnya teknologi informasi dan komunikasi mengharuskan adanya pembaruan Undang-Undang Hak Cipta, mengingat Hak Cipta menjadi basis terpenting dari ekonomi kreatif nasional. Dengan Undang-Undang Hak Cipta yang memenuhi unsur pelindungan dan pengembangan ekonomi kreatif ini maka diharapkan kontribusi sektor Hak Cipta dan Hak Terkait bagi perekonomian negara dapat lebih optimal.}
+      \field{langid}{indonesian}
+      \field{number}{28}
+      \field{title}{{Undang-Undang Nomor 28 Tahun 2014}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb H\:\\kuliah\\zotero\\storage\\F7RWF3QQ\\uu-no-28-tahun-2014-hak-cipta.html
+      \endverb
+      \verb{urlraw}
+      \verb https://hukumonline.com/pusatdata/detail/lt5460681737444/node/14/uu-no-28-tahun-2014-hak-cipta
+      \endverb
+      \verb{url}
+      \verb https://hukumonline.com/pusatdata/detail/lt5460681737444/node/14/uu-no-28-tahun-2014-hak-cipta
+      \endverb
+    \endentry
+    \entry{PendidikanDiIndonesia2019}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pendidikan seharusnya memanusiakan manusia.}
+      \field{chapter}{Pendidikan}
+      \field{journaltitle}{Republika Online}
+      \field{langid}{indonesian}
+      \field{month}{1}
+      \field{title}{{'Pendidikan di Indonesia Kehilangan Jiwa'}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb H\:\\kuliah\\zotero\\storage\\XFP3Z5CS\\plf9jv291-pendidikan-di-indonesia-kehilangan-jiwa.html
+      \endverb
+      \verb{urlraw}
+      \verb https://republika.co.id/share/plf9jv291
+      \endverb
+      \verb{url}
+      \verb https://republika.co.id/share/plf9jv291
+      \endverb
+    \endentry
+    \entry{bbcnewsindonesiaDugaanPlagiarismeDi2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1b54358f6ea6f0ce15d79167bba761fb}{%
+           family={{BBC News Indonesia}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \strng{fullhash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \strng{bibnamehash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \strng{authorbibnamehash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \strng{authornamehash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \strng{authorfullhash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{Dugaan Plagiarisme Di {{UNJ}}: `{{Pelaku}} Ingin Naik Pangkat Dan Dipandang Tinggi' - {{BBC News Indonesia}}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb H\:\\kuliah\\zotero\\storage\\86C337Y6\\indonesia-41161834.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.bbc.com/indonesia/indonesia-41161834
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/indonesia/indonesia-41161834
+      \endverb
+    \endentry
+    \entry{hasanFenomenaPlagiarismeMahasiswa2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b7bd9a5ef4c431fee454417cdea6a14b}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={Anisah},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7bd9a5ef4c431fee454417cdea6a14b}
+      \strng{fullhash}{b7bd9a5ef4c431fee454417cdea6a14b}
+      \strng{bibnamehash}{b7bd9a5ef4c431fee454417cdea6a14b}
+      \strng{authorbibnamehash}{b7bd9a5ef4c431fee454417cdea6a14b}
+      \strng{authornamehash}{b7bd9a5ef4c431fee454417cdea6a14b}
+      \strng{authorfullhash}{b7bd9a5ef4c431fee454417cdea6a14b}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{indonesian}
+      \field{number}{1}
+      \field{title}{{Fenomena Plagiarisme Mahasiswa}}
+      \field{year}{2016}
+      \field{pages}{10}
+      \range{pages}{1}
+      \verb{file}
+      \verb H\:\\kuliah\\zotero\\storage\\ID4W69AV\\483-1338-1-PB.pdf
+      \endverb
+    \endentry
+    \entry{deanWhatsApp2021User2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5743bf7ea45ab2c1ee29c94a1af6af70}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5743bf7ea45ab2c1ee29c94a1af6af70}
+      \strng{fullhash}{5743bf7ea45ab2c1ee29c94a1af6af70}
+      \strng{bibnamehash}{5743bf7ea45ab2c1ee29c94a1af6af70}
+      \strng{authorbibnamehash}{5743bf7ea45ab2c1ee29c94a1af6af70}
+      \strng{authornamehash}{5743bf7ea45ab2c1ee29c94a1af6af70}
+      \strng{authorfullhash}{5743bf7ea45ab2c1ee29c94a1af6af70}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Important WhatsApp user stats. Includes data on usage, downloads and more.}
+      \field{journaltitle}{Backlinko}
+      \field{langid}{american}
+      \field{month}{3}
+      \field{shorttitle}{{{WhatsApp}} 2021 {{User Statistics}}}
+      \field{title}{{{WhatsApp}} 2021 {{User Statistics}}: How {{Many People Use WhatsApp}}?}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb H\:\\kuliah\\zotero\\storage\\KGCVBEKL\\whatsapp-users.html
+      \endverb
+      \verb{urlraw}
+      \verb https://backlinko.com/whatsapp-users
+      \endverb
+      \verb{url}
+      \verb https://backlinko.com/whatsapp-users
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[1] Config.pm:307> INFO - Logfile is 'English-Midterm2.blg'
+[499] biber:322> INFO - === Thu Oct  7, 2021, 00:43:12
+[622] Biber.pm:415> INFO - Reading 'English-Midterm2.bcf'
+[900] Biber.pm:943> INFO - Found 7 citekeys in bib section 0
+[956] Biber.pm:4256> INFO - Processing section 0
+[957] Utils.pm:75> INFO - Globbing data source '../../ref/library.bib'
+[957] Utils.pm:91> INFO - Globbed data source '../../ref/library.bib' to ../../ref/library.bib
+[1001] Biber.pm:4455> INFO - Looking for bibtex format file '../../ref/library.bib' for section 0
+[1125] bibtex.pm:1653> INFO - LaTeX decoding ...
+[3333] bibtex.pm:1471> INFO - Found BibTeX data source '../../ref/library.bib'
+[3353] Utils.pm:293> WARN - Duplicate entry key: 'mulyana2017bentuk' in file '../../ref/library.bib', skipping ...
+[3924] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3924] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3925] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[3925] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[3985] bbl.pm:652> INFO - Writing 'English-Midterm2.bbl' with encoding 'UTF-8'
+[4000] bbl.pm:755> INFO - Output to English-Midterm2.bbl
+[4036] Biber.pm:128> INFO - WARNINGS: 1

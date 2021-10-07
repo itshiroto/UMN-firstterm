@@ -1,0 +1,187 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  12pt,
+  answers  
+]{exam}
+\usepackage[fleqn]{amsmath}
+\usepackage[]{plex-otf}
+\usepackage{iftex}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage[sorting=none, backend=biber]{biblatex}
+% \ifPDFTeX
+%   \usepackage[T1]{fontenc}
+%   \usepackage[utf8]{inputenc}
+%   \usepackage{textcomp} % provide euro and other symbols
+% \else % if luatex or xetex
+%   \usepackage{unicode-math}
+%   \defaultfontfeatures{Scale=MatchLowercase}
+%   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+% \fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\renewcommand{\solutiontitle}{\noindent\textbf{Solution:}\par\noindent}
+\newcommand{\mytitle}{English 1 (UM 122)}
+\newcommand{\theauthor}{Rivo Juicer Wowor}
+\newcommand{\affiliation}{00000059635}
+
+\lhead{\footnotesize{\textbf{\mytitle}}}%
+\rfoot{\thepage}%
+\cfoot{}
+\lfoot{\footnotesize{\theauthor \hspace{1pt} (\affiliation)}}
+
+\pagestyle{headandfoot}
+
+\usepackage{enumitem}
+\setlist{nosep} 
+
+\setlength{\parindent}{2em}
+\renewcommand{\baselinestretch}{1.5}
+\hbadness=99999
+\addbibresource{../../ref/library.bib}
+
+\begin{document}
+	\begin{titlepage}
+		\centering
+		\vspace{2cm}
+		\includegraphics[width=0.5\textwidth]{../../ref/logoUMN.png}\par\vspace{1cm}
+		\vspace{1.5cm}
+		\large{Midterm Assignment} \par
+		\vspace{1cm}
+		\LARGE{\textbf{\mytitle}} \par
+		\vspace{1.5cm}
+		\large{\theauthor} \par
+		\small{\emph{\affiliation}} \par
+		\vfill
+		\today
+		\end{titlepage}	
+
+        \section{Part 1: Reading Comprehension}
+    \begin{questions}
+        \question
+        According to the text  it is impossible to find its origin when reposting pictures,
+        articles, quotes and images on Twitter of Facebook hundreds of times. Do you agree that the Legal System in Indonesia such as the Law of Electronic Information and Transactions, Law of Copyrights or National Education System is enough to overcome this issue? Why or why not? Please elaborate your answers with strong arguments, valid sources/references and specific examples.
+
+    \begin{solution}
+        I disagree that legal system in Indoensia can overcome this problem. Because from my perspective, Indonesia's Legal System have a lot of problem on it's own. First is Law of Electronic Information and Transactions, otherwise known as \emph{UU ITE}. This law can't be use to combat plagiarism because mainly the purpose is to defend Indonesia as a nation and the people from cyber crime attacks. Even though in Article 25 stated that all intellectual rights are protected. \cite{pemerintahindonesiaUndangUndangNomor112008} It's more likely referring to Copyrights Law in Indonesia. \cite{kurniaPelanggaranHakCipta}  
+
+        Speaking of Indonesia's Copyrights Law, Article 44 of the law usually known as \emph{UUHC} stated that legally, we can reuse a property or an article for education, research, and essay writing as long as we cite the sources.\cite{pemerintahindonesiaUndangUndangNomor282014} So is this the only solution? I don't think so. Because in practice, this law is not enforced well enough and the consequences is barely noticable. Many cases involving this law usually got solved by using mediation path, so the enforcement in reality is not that great.
+
+        How about Indonesia's own Education System? It is more unlikely to combat plagiarism. A psychologist in Gadjah Mada University stated that \emph{"Indonesian Education System is losing it's soul because it focused more on grades, rather than the human itself."} \cite{PendidikanDiIndonesia2019} and I agree with that. This nation education system is not teaching students about reasoning and characters; two main aspects on combating Plagiarism, but rather focusing more on student's grades. 
+
+        That's why I think Indonesia's Legal System cannot combat plagiarism in this state. We need to strengthen our law and revise our national education system. And if we do that as soon as possible, hopefully that plagiarism problem in Indonesia will going to decrease among students.
+    \end{solution}
+
+    \question
+    In your perspectives, whose responsibility is it to counter the impact of social media on Plagiarism? University or School stakeholders? Or the Government? Ministry of Education, Culture, Research and Technology (Kemendikbud Ristek)? Why? How can they do it? Please elaborate your answers with arguments, valid sources/references and specific examples.
+
+    \begin{solution}
+        We can take a look from a case in 2017 about how a doctoral student plagiarize in order to get more social recognition \cite{bbcnewsindonesiaDugaanPlagiarismeDi2017}. From this example, I think it's more to university and school duty to teach the students about Plagiarism. Because they are directly interacting with students themselves, so it's easier to make them aware of the social media impact on plagiarism. Of course, Kemendibudristek can change and revise the curriculum to counter this problem, but it's a long process and only going to stretch the problem instead of fixing it. Therefore, the most effective way to combat this is by using teachers and lecturers to teach the students about plagiarism, how to avoid it, and how to make a reasoning and improve their own characters \cite{hasanFenomenaPlagiarismeMahasiswa2016}. 
+    \end{solution}
+
+    \question
+    Based on your self-reflection/experience, how do you counter yourself from the issue of Plagiarism on social media? Please elaborate your answers with arguments and specific examples.
+
+    \begin{solution}
+        First of all, I check the sources that I read first. And if the sources are credible, I will save it to an app called \emph{Zotero} to manage all of my references and citation. And then carefully quote and paraphrase the sentence I got, and cite the original author on the sentence that I wrote and in the bibliography. Usually almost all of this process is automated because \emph{Zotero} has a really great integration with Microsoft Office Word and \LaTeX.
+    \end{solution}
+
+    \question
+    Based on your self-reflection, how do you value integrity on the daily basis? Please elaborate your answers with strong arguments and specific real-life examples.
+    \begin{solution}
+        To value integrity, I usually make myself open and honest to my friends and family. Because I want to be a trustworthy and helpful person for other people. I also try to be hardworking but patient when doing my assignments or studying a subjects. 
+    \end{solution}
+
+    \end{questions}
+
+    \pagebreak
+    \section{Part 2: Writing an Essay}
+    \subsection{Outline}
+    \subsubsection{Background and Main Idea}
+    \begin{itemize}
+        \item What is Whatsapp?
+        \item WhatsApp is undoubtly very popular in Indonesia
+        \item Around 68.8 millions users in Indonesia, 4th largest in the world
+    \end{itemize}
+    \subsubsection{Advantages of WAG}
+    \begin{itemize}
+        \item Easy to register
+        \item Simple to use
+        \item Good enough for small group to chat
+    \end{itemize}
+    \subsubsection{Disadvantages of WAG} 
+    \begin{itemize}
+        \item Lack of features compared to competitor apps
+        \item Group Video Call limitation
+        \item Moderation tools are almost nonexistent
+        \item Only has basic privacy control
+    \end{itemize}
+    \subsubsection{My verdict and alternatives of WAG}
+    \begin{itemize}
+        \item Depending on the use case
+        \item For small groups, it is good enough
+        \item But for bigger groups, so many features are lacking
+        \item LINE and Discord are better on handling bigger groups and has better features
+    \end{itemize}
+    \pagebreak
+    \subsection{Essay}
+    \begin{centering}
+        \Large{WhatsApp Group: is it good enough?} \par
+        \vspace{10pt}
+    \end{centering}
+
+    If you asked Indonesian about their main application for communicating, then most people will say \emph{WhatsApp} as the answer. WhatsApp Messenger, or simply \emph{WA} for short, is a freeware instant messaging app released back in January 2009 and owned by \emph{Facebook, inc.} WhatsApp is undoubtedly one of the most popular instant messaging apps on Earth. Indonesia has around 68.8 million WhatsApp users, making it the fourth-largest WhatsApp audience by countries, just below India, Brazil, and US \cite{deanWhatsApp2021User2021}. But, is it really good enough?
+
+    WhatsApp is known because it's easy to use compared to other IM apps. Because when registering, WhatsApp only requires the phone number that the user had. So, it's only a matter of typing the phone number, verifying the OTP, and you're ready to go. The application layout is really simple too. At the main screen, you will greeted with three tabs; the \emph{Chat} tab, \emph{Stories} tab, and the \emph{Calls} tab. So the users can move back and forth between menus without getting lost. The main feature that everyone uses is the \emph{Group} features. This feature will create a group chat based on the people you're inviting. And this feature is really good if you use it only for some simple chatting.
+
+    But if we comparing it to other competitor apps, WhatsApp Groups has so many lacking features. The first is group voice call. WhatsApp released this feature back in back in 2018 and only allows up to 8 members at once inside the call. Compares that to \emph{LINE}, one of the WhatsApp competitors, who had this feature back in 2016 and even allows up to 200 members calling at once. Another feature that WhatsApp Group lacking is moderation tools. WhatsApp only allows you to \emph{kick} someone out of the group. And often, this feature is not enough if you want to moderate bigger groups. For example in Discord, you can mute, kick, or even banning someone on group chat (or \emph{Server}) if they disobey the rules. And often I found those features are lacking in WhatsApp Groups. Lastly, WhatsApp only provides you with only simple privacy controls like Profile Picture visibility, etc. But your phone numbers are visible to other group members, and there's no way for you to hide it. This is a major concern of WhatsApp Groups in terms of privacy. Because there's a higher chance of someone blackmailing, or even hijack your phone number easily. 
+
+    So, is WhatsApp Group good enough for you? It depends. If you only want to chit-chat with your close friends or family, I think WhatsApp Groups would be more than enough to use. But, if you manage a class, community, or even something bigger than only close friends, then there are other alternatives who have better features than WhatsApp's own offering. Like Discord with their \emph{Channels} systems and moderation tools, or LINE with their better group voice calls offering and better privacy control.
+    \pagebreak
+    \printbibliography
+		
+\end{document}
