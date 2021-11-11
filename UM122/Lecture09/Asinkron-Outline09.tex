@@ -1,0 +1,66 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{plex-otf}
+\usepackage{enumitem}
+
+\setlength{\parskip}{0pt} 
+\setlength{\parindent}{0pt}
+
+\newcommand{\mytitle}{Essay Outline}
+\newcommand{\theauthor}{Rivo Juicer Wowor}
+\newcommand{\affiliation}{00000059635}
+
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \lhead{\footnotesize{\textbf{\mytitle}}}
+  \fancyfoot[R]{\thepage}
+  \fancyfoot[L]{\footnotesize{\theauthor \hspace{1pt} (\affiliation)}}
+  \renewcommand{\headrulewidth}{0pt}% Line at the header invisible
+  \renewcommand{\footrulewidth}{0.4pt}% Footer line not visible with 0pt
+}
+
+\pagestyle{plain}
+
+\begin{document}
+    \section*{Introduction}
+    \subsection*{Background}
+        Linux have the lowest desktop market share in the world.
+    \subsection*{Main Idea}
+        Linux should be used more on the desktop, especially for beginner programmers
+        in the computer science major.  
+
+    \section*{Body Paragraph 1}
+        Linux is a reliable and secure OS, because it's open-source nature.
+        \subsection*{Details}
+        \begin{enumerate}
+            \item It's free as in speech.
+            \item Everybody can contribute to fix issues without waiting for maintainers to fix.
+            \item Full control on OS updates.
+        \end{enumerate}
+
+    \section*{Body Paragraph 2}
+        Linux has a more flexible environment for developing software.
+        \subsection*{Details}
+        \begin{enumerate}
+            \item Broad community of developers.
+            \item Almost all development tools already available on Linux.
+            \item More customizable to fit user's need.
+            \item It has powerful scripting tools called \emph{Bash}.
+        \end{enumerate}
+
+    \section*{Body Paragraph 3}
+        Linux is lighter than other competing OSes (OSX and Windows).
+        \subsection*{Details}
+        \begin{enumerate}
+            \item CPU and Memory usage is significantly lower.
+            \item Less bloatware and unnecessary.
+            \item Can basically run almost anywhere.
+        \end{enumerate}
+
+    \section*{Conclusion}
+        Linux is a better OS for developers, especially for young programmers. It is reliable,
+        more secure, and even lighter to run. It also has more flexible environment for developing software.
+        That's why many developers using Linux to be their main Operating System to daily drive.
+
+\end{document}

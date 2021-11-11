@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'Civics-Midterm.blg'
+[171] biber:322> INFO - === Fri Oct  8, 2021, 15:58:19
+[207] Biber.pm:415> INFO - Reading 'Civics-Midterm.bcf'
+[315] Biber.pm:943> INFO - Found 3 citekeys in bib section 0
+[359] Biber.pm:4256> INFO - Processing section 0
+[360] Utils.pm:75> INFO - Globbing data source '../../ref/library.bib'
+[360] Utils.pm:91> INFO - Globbed data source '../../ref/library.bib' to ../../ref/library.bib
+[381] Biber.pm:4455> INFO - Looking for bibtex format file '../../ref/library.bib' for section 0
+[422] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1146] bibtex.pm:1471> INFO - Found BibTeX data source '../../ref/library.bib'
+[1162] Utils.pm:293> WARN - Duplicate entry key: 'mulyana2017bentuk' in file '../../ref/library.bib', skipping ...
+[1285] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1285] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1285] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1285] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1316] bbl.pm:652> INFO - Writing 'Civics-Midterm.bbl' with encoding 'UTF-8'
+[1318] bbl.pm:755> INFO - Output to Civics-Midterm.bbl
+[1324] Biber.pm:128> INFO - WARNINGS: 1
