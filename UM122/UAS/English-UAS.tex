@@ -6,13 +6,13 @@
 % \setmainfont{Times New Roman}
 
 \usepackage[english]{babel}
-\usepackage{hyperref}
 \usepackage{csquotes}
 \usepackage{titling}
 \usepackage{enumitem}
 
-\usepackage[backend=biber, sorting=none, style=apa]{biblatex}
+\usepackage[backend=biber, sorting=none, style=apa, refsection=section]{biblatex}
 \addbibresource{../../ref/library.bib}
+\usepackage{hyperref}
 
 \renewcommand{\baselinestretch}{1.5}
 \setlength{\parskip}{1em}
@@ -34,7 +34,6 @@
 \begin{document}
     \section*{Part 1}
     \subsection*{Questions}
-    % TODO Fix the overfull hboxes
     \begin{enumerate}
         \item According to the text, Nadiem Anwar Makarim explained the details
         of the PPKS Permendikbudristek, which later drew polemics from some communities.
@@ -50,17 +49,19 @@
     \end{enumerate}
 
     \subsection*{Answers}
-    \begin{enumerate}
-        \item 
+    \begin{refsection}
+        
+        \begin{enumerate}
+            \item 
             % From my perspective, there's a few polemics that would be emerge regarding to this PPKS.  
             %   - Many people would think this bill will encourage consent and free sex
             %   - Few phrases that in this bill would be misinterpreted to legalizes extramarital and adultery
-
+            
             % These polemics happened because:
             %   - People have different opinion about what sexual violence is about.
             %   - Talking about sex is mostly a taboo in Indonesia, so a bill about sexual violence would create many
             %     misunderstanding among people.
-
+            
             From my perspective, there would be few polemics that would be
             emerge related to this bill. First, few phrases inside this bill can
             be misunderstood. If you read the bill in the Article 5 \parencite{kementerianpendidikandankebudayaanPeraturanMenteri302021},
@@ -68,7 +69,7 @@
             points. And I think that this phrase would create many problems
             because this phrase can be misinterpreted by alot of people to
             encourage consent and free sex. 
-
+            
             These polemics could be happened because many people have different
             opinion about what sexual violence is about. Some people thought
             that sexual violence only happened when there is intercourse without
@@ -80,25 +81,45 @@
             and adultery in Indonesia's universities. And I could think these
             would happened because their opinion would be very biased by
             their beliefs.
-
-        \item
-            % Kinda, TODO
-
-    \end{enumerate}
+            
+            \item
+            Yes, I think sex education should be implemented in formal university 
+            curriculum. In \emph{International Technical Guidance of Sexuality Education}
+            guidelines by WHO, Formal sex education is important because it
+            enables young people to develop accurate knowledge, positive values,
+            respect for human rights, gender equality, and diversity that
+            contributes to safe, healthy, positive relationship \parencite{whoInternationalTechnicalGuidance2018}.
+            Sex education is not only need to be implemented in universities
+            curriculum, but also in elementary to high school curriculum too. A
+            research by \citeauthor[]{santelliDoesSexEducation2018} in
+            \citeyear{santelliDoesSexEducation2018} shows that the lack of
+            institutional education led students to have alternative solutions to
+            learn more about sex and sexuality, and a majority of sexual abuse
+            and violence in college happened because sex education before
+            college was awkward and poorly delivered. That's why sex education
+            need to be implemented on every curriculum for students in order to
+            avoid sex assault and violence cases in Indonesia's education institution.
+        \end{enumerate}
+        \nocite{
+            bbcnewsindonesiaMengapaTanpaPersetujuan2021,
+        }
+        \pagebreak
+        \printbibliography[title=First Part References]
+    \end{refsection}
 
     \pagebreak
     \section*{Part 2}
     \subsection*{Outline}
     \begin{enumerate}[label*=\arabic*.]
-    \item {\large\textbf{Introductory Paragraph}}
+        \item {\large\textbf{Introductory Paragraph}}
         \begin{enumerate}[label*=\arabic*.]
-        \item \textbf{Background}
+            \item \textbf{Background}
             \begin{enumerate}
-            \item 68\% of Indonesian women did not feel pretty when they did not use cosmetics
-            \item Indonesian people's stigma about beauty standard is unrealistic and too high
-            \item Many of Indonesian women become less confident about their own beauty.
+                \item 68\% of Indonesian women did not feel pretty when they did not use cosmetics
+                \item Indonesian people's stigma about beauty standard is unrealistic and too high
+                \item Many of Indonesian women become less confident about their own beauty.
             \end{enumerate}
-        \item \textbf{Thesis Statement} \\
+            \item \textbf{Thesis Statement} \\
         Indonesian women shouldn't follow any beauty standards that have been set by society
         \end{enumerate}
     \item {\large\textbf{Body Paragraph}}
@@ -134,21 +155,34 @@
             \end{enumerate}
         \end{enumerate}
     \item {\large\textbf{Conclusion}} \\
-            There's still a lot of women in Indonesia that are not confident by their own body because of society's stigma about beauty. Stigma like having slim body and bright skin to be "beautiful" is what concerning to a lot of women in Indonesia and therefore, creating a bad habit and bad experience for them to chase that unrealistic beauty standards. One of the reason on why all of this happened because how media portray beauty in television shows, ads, and social media. Media often linked beautifulness with foreign women beauty characteristics rather than using Indonesian own unique natural beauty. That's why, Indonesian women should be confident about themselves. Also, more women should focused more on inner beauty rather than outer beauty because on how long lasting the effect it has. Therefore, Indonesian women should not be bother anymore by any of beauty standards set by society.
+            There's still a lot of women in Indonesia that are not confident by
+            their own body because of society's stigma about beauty. Stigma like
+            having slim body and bright skin to be "beautiful" is what concerning
+            to a lot of women in Indonesia and therefore, creating a bad habit
+            and bad experience for them to chase that unrealistic beauty standards.
+            One of the reason on why all of this happened because how media portray
+            beauty in television shows, ads, and social media. Media often linked
+            beautifulness with foreign women beauty characteristics rather than
+            using Indonesian own unique natural beauty. That's why, Indonesian
+            women should be confident about themselves. Also, more women should
+            focused more on inner beauty rather than outer beauty because on how
+            long lasting the effect it has. Therefore, Indonesian women should
+            not be bother anymore by any of beauty standards set by society.
     \end{enumerate}
 
     \title{Why Indonesian Women should not mind about Unrealistic Beauty Standards}
     \author{Rivo Juicer Wowor (00000059635)}
     \date{}
     \maketitle
-    In this digital age, there's a lot of things that changed and shaped our
-    society by media. And beauty is one of those things that has changed. But
-    because of that, our society set the standards of Indonesian women's beauty
-    to the point where it is unrealistic and not representing women as an
-    Indonesian at all. Few stigma that grows inside our society mind are like
-    how light your skin is, how slim your body is, and how \emph{young} your
-    face is like. And those stigma create a huge impact on how Indonesian women
-    saw themselves. One of the impact of this fact is 68\% of Indonesian women
+    \begin{refsection}
+        In this digital age, there's a lot of things that changed and shaped our
+        society by media. And beauty is one of those things that has changed. But
+        because of that, our society set the standards of Indonesian women's beauty
+        to the point where it is unrealistic and not representing women as an
+        Indonesian at all. Few stigma that grows inside our society mind are like
+        how light your skin is, how slim your body is, and how \emph{young} your
+        face is like. And those stigma create a huge impact on how Indonesian women
+        saw themselves. One of the impact of this fact is 68\% of Indonesian women
     did not feel pretty when they didn't use cosmetics based on Beauty Confidence
     Report survey in 2018 \parencite{maleSurvei84Persen}.
     Therefore, I propose that Indonesian women should not mind or follow any
@@ -181,7 +215,7 @@
     self confidence. And lastly, find a mentor or a role model who are successful
     in their career. Because a mentor will really helps on guiding you to be 
     successful just like them.
-
+    
     Besides confidence, I think that women's inner beauty is a lot more important
     than outer beauty. But before that, what is an \emph{"inner beauty"}? According
     to Plato, inner beauty is a beauty based on how their action is morally good
@@ -223,7 +257,7 @@
     Things like your hobby, your passion, and your future. Rich yourself with 
     new experience and create new memories for your life. Because by doing that,
     you will find your inner beauty eventually.
-
+    
     There's still a lot of women in Indonesia that are not confident by their
     own body because of society's stigma about beauty. Stigma like having slim
     body and bright skin to be "beautiful" is what concerning to a lot of women 
@@ -239,7 +273,7 @@
     is often hard to find these days rather than good-looking people. 
     Therefore, Indonesian women should not be bother anymore by any of beauty
     standards set by society.
-
+    
     \pagebreak
     \nocite{
         fardoulyNegativeComparisonsOne2015,
@@ -259,9 +293,10 @@
         schmalzriedInnerBeautyFriendshipHypothesis2013,
         wirasariKAJIANKECANTIKANKAUM2016,
         wisnubrataCaraMemancarkanInner2020}
-    \printbibliography
+        \printbibliography[title=Essay References]
+    \end{refsection}
 
-
+    
 
 
 \end{document}

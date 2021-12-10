@@ -17,7 +17,7 @@
 \endgroup
 
 
-\refsection{0}
+\refsection{1}
   \datalist[entry]{none/global//global/global}
     \entry{kementerianpendidikandankebudayaanPeraturanMenteri302021}{legislation}{}
       \name{editora}{1}{}{%
@@ -97,6 +97,211 @@
       \verb https://jakartaglobe.id/news/nadiem-makarim-sexual-violence-on-indonesian-campuses-is-a-critical-emergency
       \endverb
     \endentry
+    \entry{whoInternationalTechnicalGuidance2018}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9ed1e9f759b27c20c0ee8a56113c84e3}{%
+           family={{WHO}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \strng{fullhash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \strng{bibnamehash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \strng{authorbibnamehash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \strng{authornamehash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \strng{authorfullhash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Comprehensive sexuality education (CSE) plays a central role in the preparation of young people for a safe, productive, fulfilling life in a world where HIV and AIDS, sexually transmitted infections (STIs), unintended pregnancies, gender-based violence (GBV) and gender inequality still pose serious risks to their well-being. However, despite clear and compelling evidence for the benefits of high-quality, curriculum-based CSE, few children and young people receive preparation for their lives that empowers them to take control and make informed decisions about their sexuality and relationships freely and responsibly. Countries are increasingly acknowledging the importance of equipping young people with the knowledge and skills to make responsible choices in their lives, particularly in a context where they have greater exposure to sexually explicit material through the Internet and other media.}
+      \field{day}{14}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{International Technical Guidance on Sexuality Education. {{An}} Evidence-Informed Approach}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\X64NRLX3\\international-technical-guidance-on-sexuality-education.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.who.int/publications/m/item/9789231002595
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/publications/m/item/9789231002595
+      \endverb
+    \endentry
+    \entry{santelliDoesSexEducation2018}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=d0e9ac918a95251a22e0e47bd3d2356f}{%
+           family={Santelli},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80115b3ed08d195597b53630bde60396}{%
+           family={Grilo},
+           familyi={G\bibinitperiod},
+           given={Stephanie\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ade8383a9898e1595228f0eddbb4e7e6}{%
+           family={Choo},
+           familyi={C\bibinitperiod},
+           given={Tse-Hwei},
+           giveni={T\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb83029ddefb5f0d2ace46deaa3916fc}{%
+           family={Diaz},
+           familyi={D\bibinitperiod},
+           given={Gloria},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cafadf35ac213101bd8927dbf1db0c50}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6933ac8788641570fcea96a58d2b32f0}{%
+           family={Wall},
+           familyi={W\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fada3590b79ed6a24e70e4f6b437c10b}{%
+           family={Hirsch},
+           familyi={H\bibinitperiod},
+           given={Jennifer\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d9d8323b150ae920c8e4a6e9a534306}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Patrick\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a852e1d89f3eaa5b92215a137f0ea7c}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Louisa},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=423355d58cb7df20977c982465aaffbf}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Shamus},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c03907d8100c302eb6869083e642469d}{%
+           family={Mellins},
+           familyi={M\bibinitperiod},
+           given={Claude\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e9566bea62d0942dc8c303a23aa05c8}
+      \strng{fullhash}{05221ab6c329c82f8757b04e513d351d}
+      \strng{bibnamehash}{05221ab6c329c82f8757b04e513d351d}
+      \strng{authorbibnamehash}{05221ab6c329c82f8757b04e513d351d}
+      \strng{authornamehash}{6e9566bea62d0942dc8c303a23aa05c8}
+      \strng{authorfullhash}{05221ab6c329c82f8757b04e513d351d}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Purpose College-bound young people experience sexual assault, both before and after they enter college. This study examines historical risk factors (experiences and exposures that occurred prior to college) for penetrative sexual assault (PSA) victimization since entering college. Methods A cross-sectional study, including an online population-based quantitiative survey with undergraduate students was conducted in spring 2016. Bivariate analyses and multivariable regressions examined risk and protective factors associated with ever experiencing PSA since entering college. Concurrently-collected in-depth ethnographic interviews with 151 students were reviewed for information related to factors identified in the survey. Results In bivariate analyses, multiple historical factors were significantly associated with PSA in college including adverse childhood experiences and having experienced unwanted sexual contact before college (for women) and initiation of alcohol, marijuana, and sexual behaviors before age 18. Significant independent risk factors for college PSA included female gender, experiencing unwanted sexual contact before college, first oral sex before age 18, and “hooking up” (e.g., causual sex or sex outside a committed partnership) in high school. Receipt of school-based sex education promoting refusal skills before age 18 was an independent protective factor; abstinence-only instruction was not. In the ethnographic interviews, students reported variable experiences with sex education before college; many reported it was awkward and poorly delivered. Conclusions Multiple experiences and exposures prior to college influenced the risk of penetrative sexual assault in college. Pre-college comprehensive sexuality education, including skills-based training in refusing unwanted sex, may be an effective strategy for preventing sexual assault in college. Sexual assault prevention needs to begin earlier; successful prevention before college should complement prevention efforts once students enter college.}
+      \field{day}{14}
+      \field{eprinttype}{pmid}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLoS ONE}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{PLoS One}
+      \field{title}{Does Sex Education before College Protect Students from Sexual Assault in College?}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{volume}{13}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e0205951}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0205951
+      \endverb
+      \verb{eprint}
+      \verb 30427866
+      \endverb
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\KJX6AHH2\\Santelli et al. - 2018 - Does sex education before college protect students.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235267/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235267/
+      \endverb
+    \endentry
+    \entry{bbcnewsindonesiaMengapaTanpaPersetujuan2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b54358f6ea6f0ce15d79167bba761fb}{%
+           family={{BBC News Indonesia}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \strng{fullhash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \strng{bibnamehash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \strng{authorbibnamehash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \strng{authornamehash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \strng{authorfullhash}{1b54358f6ea6f0ce15d79167bba761fb}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Menteri Pendidikan Kebudayaan Riset dan Teknologi Nadiem Makarim mengatakan Indonesia mengalami "pandemi kekerasan seksual" namun sejumlah pihak menyebut peraturan menteri terkait perlu dicabut karena frasa tanpa persetujuan korban."}
+      \field{day}{13}
+      \field{entrysubtype}{newspaper}
+      \field{journaltitle}{BBC News Indonesia}
+      \field{langid}{indonesian}
+      \field{month}{11}
+      \field{title}{Mengapa 'tanpa persetujuan korban' dimaknai pelegalan kebebasan seks'?}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\XPYVK7HA\\indonesia-59265939.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.bbc.com/indonesia/indonesia-59265939
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/indonesia/indonesia-59265939
+      \endverb
+      \keyw{Hukum,Indonesia,Kekerasan seksual,Pendidikan}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{none/global//global/global}
     \entry{maleSurvei84Persen}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b1f563b6a78a815ea8b2807731f7c817}{%
@@ -115,8 +320,8 @@
       \strng{authorbibnamehash}{b1f563b6a78a815ea8b2807731f7c817}
       \strng{authornamehash}{b1f563b6a78a815ea8b2807731f7c817}
       \strng{authorfullhash}{b1f563b6a78a815ea8b2807731f7c817}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -157,8 +362,8 @@
       \strng{authorbibnamehash}{2600733568b8ff0d3163029ba711b324}
       \strng{authornamehash}{2600733568b8ff0d3163029ba711b324}
       \strng{authorfullhash}{2600733568b8ff0d3163029ba711b324}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -195,8 +400,8 @@
       \strng{authorbibnamehash}{17397a2421c6feddc9b7de86efd6889f}
       \strng{authornamehash}{17397a2421c6feddc9b7de86efd6889f}
       \strng{authorfullhash}{17397a2421c6feddc9b7de86efd6889f}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -248,8 +453,8 @@
       \strng{authorbibnamehash}{1fcf164f28f48a653e7d83ce34f3cf18}
       \strng{authornamehash}{1fcf164f28f48a653e7d83ce34f3cf18}
       \strng{authorfullhash}{1fcf164f28f48a653e7d83ce34f3cf18}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -298,8 +503,8 @@
       \strng{authorbibnamehash}{19a3ed46584bea2e26e52f41423f5906}
       \strng{authornamehash}{19a3ed46584bea2e26e52f41423f5906}
       \strng{authorfullhash}{19a3ed46584bea2e26e52f41423f5906}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -341,8 +546,8 @@
       \strng{authorbibnamehash}{24fc3725757a1d94df544835122618f2}
       \strng{authornamehash}{24fc3725757a1d94df544835122618f2}
       \strng{authorfullhash}{24fc3725757a1d94df544835122618f2}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -388,8 +593,8 @@
       \strng{authorbibnamehash}{903c8ed1c7bb7447eac94ea986b59333}
       \strng{authornamehash}{903c8ed1c7bb7447eac94ea986b59333}
       \strng{authorfullhash}{903c8ed1c7bb7447eac94ea986b59333}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -601,8 +806,8 @@
       \strng{authorbibnamehash}{a9bde13631c3794d27369a719df36f7f}
       \strng{authornamehash}{a9bde13631c3794d27369a719df36f7f}
       \strng{authorfullhash}{a9bde13631c3794d27369a719df36f7f}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -643,8 +848,8 @@
       \strng{authorbibnamehash}{f5c5bcd1ede1f7f07404849987959559}
       \strng{authornamehash}{f5c5bcd1ede1f7f07404849987959559}
       \strng{authorfullhash}{f5c5bcd1ede1f7f07404849987959559}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}

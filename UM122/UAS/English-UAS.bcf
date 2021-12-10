@@ -2558,35 +2558,57 @@
     <bcf:datasource type="file" datatype="bibtex">../../ref/library.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 1 -->
+  <bcf:bibdata section="1">
+    <bcf:datasource type="file" datatype="bibtex">../../ref/library.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="1">
     <bcf:citekey order="1">kementerianpendidikandankebudayaanPeraturanMenteri302021</bcf:citekey>
     <bcf:citekey order="2">chandraNadiemMakarimSexual2021</bcf:citekey>
-    <bcf:citekey order="3">maleSurvei84Persen</bcf:citekey>
-    <bcf:citekey order="4">prianti2013indonesian</bcf:citekey>
-    <bcf:citekey order="5">fardoulyNegativeComparisonsOne2015</bcf:citekey>
-    <bcf:citekey order="6">fardoulyNegativeComparisonsOne2015</bcf:citekey>
-    <bcf:citekey order="7">wirasariKAJIANKECANTIKANKAUM2016</bcf:citekey>
-    <bcf:citekey order="8">prianti2013indonesian</bcf:citekey>
-    <bcf:citekey order="9">kumparanwomanBagaimanaCaraMeningkatkan2019</bcf:citekey>
-    <bcf:citekey order="10">wisnubrataCaraMemancarkanInner2020</bcf:citekey>
-    <bcf:citekey order="11">schmalzriedInnerBeautyFriendshipHypothesis2013</bcf:citekey>
+    <bcf:citekey order="3">whoInternationalTechnicalGuidance2018</bcf:citekey>
+    <bcf:citekey order="4">santelliDoesSexEducation2018</bcf:citekey>
+    <bcf:citekey order="5">santelliDoesSexEducation2018</bcf:citekey>
+    <bcf:citekey order="6" nocite="1">bbcnewsindonesiaMengapaTanpaPersetujuan2021</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 2 -->
+  <bcf:bibdata section="2">
+    <bcf:datasource type="file" datatype="bibtex">../../ref/library.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="2">
+    <bcf:citekey order="1">maleSurvei84Persen</bcf:citekey>
+    <bcf:citekey order="2">prianti2013indonesian</bcf:citekey>
+    <bcf:citekey order="3">fardoulyNegativeComparisonsOne2015</bcf:citekey>
+    <bcf:citekey order="4">fardoulyNegativeComparisonsOne2015</bcf:citekey>
+    <bcf:citekey order="5">wirasariKAJIANKECANTIKANKAUM2016</bcf:citekey>
+    <bcf:citekey order="6">prianti2013indonesian</bcf:citekey>
+    <bcf:citekey order="7">kumparanwomanBagaimanaCaraMeningkatkan2019</bcf:citekey>
+    <bcf:citekey order="8">wisnubrataCaraMemancarkanInner2020</bcf:citekey>
+    <bcf:citekey order="9">schmalzriedInnerBeautyFriendshipHypothesis2013</bcf:citekey>
+    <bcf:citekey order="10">fimela.comIniAlasanMengapa2018</bcf:citekey>
+    <bcf:citekey order="11">fardoulyNegativeComparisonsOne2015</bcf:citekey>
     <bcf:citekey order="12">fimela.comIniAlasanMengapa2018</bcf:citekey>
-    <bcf:citekey order="13">fardoulyNegativeComparisonsOne2015</bcf:citekey>
-    <bcf:citekey order="14">fimela.comIniAlasanMengapa2018</bcf:citekey>
-    <bcf:citekey order="15" nocite="1">InnerBeautyLebih</bcf:citekey>
-    <bcf:citekey order="16" nocite="1">islameyWacanaStandarKecantikan2020</bcf:citekey>
-    <bcf:citekey order="17">kumparanwomanBagaimanaCaraMeningkatkan2019</bcf:citekey>
-    <bcf:citekey order="18">maleSurvei84Persen</bcf:citekey>
-    <bcf:citekey order="19" nocite="1">mediaTakHarusKulit2021</bcf:citekey>
-    <bcf:citekey order="20" nocite="1">oakesComplicatedTruthSocial</bcf:citekey>
-    <bcf:citekey order="21" nocite="1">obioraDarkSideSocial0100</bcf:citekey>
-    <bcf:citekey order="22">prianti2013indonesian</bcf:citekey>
-    <bcf:citekey order="23" nocite="1">puspitasariDiscourseShiftingLocal2020</bcf:citekey>
-    <bcf:citekey order="24" nocite="1">rachmanBalancingOuterInner2013</bcf:citekey>
-    <bcf:citekey order="25" nocite="1">ratnaningtiasCantikDiInstagram2018</bcf:citekey>
-    <bcf:citekey order="26" nocite="1">rizkiyahSTRATEGICOPINGPEREMPUAN2020</bcf:citekey>
-    <bcf:citekey order="27">schmalzriedInnerBeautyFriendshipHypothesis2013</bcf:citekey>
-    <bcf:citekey order="28">wirasariKAJIANKECANTIKANKAUM2016</bcf:citekey>
-    <bcf:citekey order="29">wisnubrataCaraMemancarkanInner2020</bcf:citekey>
+    <bcf:citekey order="13" nocite="1">InnerBeautyLebih</bcf:citekey>
+    <bcf:citekey order="14" nocite="1">islameyWacanaStandarKecantikan2020</bcf:citekey>
+    <bcf:citekey order="15">kumparanwomanBagaimanaCaraMeningkatkan2019</bcf:citekey>
+    <bcf:citekey order="16">maleSurvei84Persen</bcf:citekey>
+    <bcf:citekey order="17" nocite="1">mediaTakHarusKulit2021</bcf:citekey>
+    <bcf:citekey order="18" nocite="1">oakesComplicatedTruthSocial</bcf:citekey>
+    <bcf:citekey order="19" nocite="1">obioraDarkSideSocial0100</bcf:citekey>
+    <bcf:citekey order="20">prianti2013indonesian</bcf:citekey>
+    <bcf:citekey order="21" nocite="1">puspitasariDiscourseShiftingLocal2020</bcf:citekey>
+    <bcf:citekey order="22" nocite="1">rachmanBalancingOuterInner2013</bcf:citekey>
+    <bcf:citekey order="23" nocite="1">ratnaningtiasCantikDiInstagram2018</bcf:citekey>
+    <bcf:citekey order="24" nocite="1">rizkiyahSTRATEGICOPINGPEREMPUAN2020</bcf:citekey>
+    <bcf:citekey order="25">schmalzriedInnerBeautyFriendshipHypothesis2013</bcf:citekey>
+    <bcf:citekey order="26">wirasariKAJIANKECANTIKANKAUM2016</bcf:citekey>
+    <bcf:citekey order="27">wisnubrataCaraMemancarkanInner2020</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
@@ -2595,7 +2617,16 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
-  <bcf:datalist section="0"
+  <bcf:datalist section="1"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="2"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"
