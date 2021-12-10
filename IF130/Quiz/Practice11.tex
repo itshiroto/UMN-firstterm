@@ -1,0 +1,179 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{plex-otf}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\setlength{\parskip}{0pt} 
+\setlength{\parindent}{0pt}
+
+\newcommand{\mytitle}{Quiz 1}
+\newcommand{\theauthor}{Rivo Juicer Wowor}
+\newcommand{\affiliation}{00000059635}
+
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \lhead{\footnotesize{\textbf{\mytitle}}}%
+  \fancyfoot[R]{\thepage}%
+  \fancyfoot[L]{\footnotesize{\theauthor \hspace{1pt} (\affiliation)}}
+  \renewcommand{\headrulewidth}{0.4pt}% Line at the header invisible
+  \renewcommand{\footrulewidth}{0.4pt}% Footer line not visible with 0pt
+}
+
+\lstdefinestyle{code}{
+    breaklines=true,
+    language=[ANSI]C,
+    numbers=left,
+    numbersep=12pt,
+    numberstyle=\footnotesize,
+    tabsize=2,
+    showstringspaces=false,
+	basicstyle=\normalsize \linespread{1.2},
+    frame=lines,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+    morecomment=[l][\textcolor{lightgray}]{//}
+}
+
+\lstdefinestyle{output}{
+    breaklines=true,
+    frame=shadowbox,
+    basicstyle=\normalsize,
+    morecomment=[l][\textbf]{>},
+    morecomment=[l][\emph]{./}
+}
+ 
+\pagestyle{plain}
+
+\begin{document}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include <stdio.h>
+
+const char* whereRegistered(char input) {
+    switch(input) {
+        case 'U': return "Jakarta Utara";
+        case 'B': return "Jakarta Barat";
+        case 'P': return "Jakarta Pusat";
+        case 'S': return "Jakarta Selatan";
+        case 'T': return "Jakarta Timur";
+        case 'Z': return "Kota Depok";
+        case 'E': return "Kota Depok";
+        case 'N': return "Kabupaten Tangerang";
+        case 'C': return "Kota Tangerang";
+        case 'V': return "Kota Tangerang";
+        case 'K': return "Kota Bekasi";
+        case 'F': return "Kabupaten Bekasi";
+        case 'W': return "Kota Tangerang Selatan";
+        case 'G': return "Kabupaten Tangerang";
+        case 'X': return "Kendaraan Sementara";
+        case 'R': return "Kendaraan Dinas";
+        default: return "Lokasi Tidak ditemukan";
+    }
+}
+
+const char* isGanjil(int input) {
+    if (input % 2 != 0) return "Ganjil";
+    else return "Genap";
+}
+
+const char* getInfo(char input1, char input2) {
+    if ((input1 == 'I' && input2 == 'X') || (input1 == 'H' && input2 == 'X')) return "Ambulance";
+    else if ((input1 == 'T' && input2 == 'X') || (input1 == 'U' && input2 == 'X')) return "Angkutan Kota";
+    else if (input1 == 'U' && input2 == 'A') return "Taksi";
+    else if (input1 == 'Q' && input2 == 'N') return "Kendaraan Staf Pemerintah";
+
+    else if (input1 == 'A') return "Sedan/pickup";
+    else if (input1 == 'B') return "Pickup kabin ganda";
+    else if (input1 == 'J') return "Jeep dan SUV";
+    else if (input1 == 'L') return "Jeep dan SUV yang sudah dimutasi";
+
+    else if (input1 == 'C') return "Truk dan Pickup box";
+    else if (input1 == 'D' ||
+             input1 == 'W' ||
+             input1 == 'E' ||
+             input1 == 'R') return "Sedan yang sudah dimutasi";
+
+    else if (input1 == 'U' ||
+             input1 == 'Z') return "Pickup kabin ganda";
+
+    else if (input1 == 'F' ||
+             input1 == 'K' ||
+             input1 == 'O' ||
+             input1 == 'Y') return "Minibus, Hatchback, dan city car";
+    else return "Input tidak ditemukan";
+}
+
+
+
+int main() {
+    int nomorPlat;
+    char firstPlat;
+    char infoPlat[3];
+    printf("Quiz - IF130C\n");
+    printf("Rivo Juicer Wowor #00000059635\n");
+    printf("-------------------------------\n");
+    printf("\n");
+
+    printf("Input Data Plat Nomor: ");
+    scanf("%c%d%s", &firstPlat, &nomorPlat, &infoPlat);
+
+    printf("\n");
+    printf("Informasi Kendaraan\n");
+    printf("-------------------------------\n");
+    printf("\n");
+
+    printf("Ganjil/Genap: %s\n", isGanjil(nomorPlat));
+    printf("Terdaftar: %s\n", whereRegistered(infoPlat[0]));
+    printf("Tipe: %s", getInfo(infoPlat[1], infoPlat[2]));
+}
+        \end{lstlisting}
+    \vspace{0.5cm}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+> ./Quiz1                                                                                      127 ↵
+Quiz - IF130C
+Rivo Juicer Wowor #00000059635
+-------------------------------
+
+Input Data Plat Nomor: B6571YXS
+
+Informasi Kendaraan
+-------------------------------
+
+Ganjil/Genap: Ganjil
+Terdaftar: Lokasi Tidak ditemukan
+Tipe: Input tidak ditemukan
+
+> ./Quiz1
+Quiz - IF130C
+Rivo Juicer Wowor #00000059635
+-------------------------------
+
+Input Data Plat Nomor: B5231UHX
+
+Informasi Kendaraan
+-------------------------------
+
+Ganjil/Genap: Ganjil
+Terdaftar: Jakarta Utara
+Tipe: Ambulance
+
+> ./Quiz1
+Quiz - IF130C
+Rivo Juicer Wowor #00000059635
+-------------------------------
+
+Input Data Plat Nomor: B1023YUX
+
+Informasi Kendaraan
+-------------------------------
+
+Ganjil/Genap: Ganjil
+Terdaftar: Lokasi Tidak ditemukan
+Tipe: Angkutan Kota
+        \end{lstlisting}
+    
+
+        
+\end{document}

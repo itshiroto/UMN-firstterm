@@ -1,0 +1,902 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{kementerianpendidikandankebudayaanPeraturanMenteri302021}{legislation}{}
+      \name{editora}{1}{}{%
+        {{hash=6ec3b9475902e3072ecbf0cd9a50a707}{%
+           family={{Kementerian Pendidikan dan Kebudayaan}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{editorabibnamehash}{6ec3b9475902e3072ecbf0cd9a50a707}
+      \strng{editoranamehash}{6ec3b9475902e3072ecbf0cd9a50a707}
+      \strng{editorafullhash}{6ec3b9475902e3072ecbf0cd9a50a707}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{31}
+      \field{editoratype}{collaborator}
+      \field{month}{8}
+      \field{number}{30}
+      \field{title}{Peraturan {{Menteri}} 30 {{Tahun}} 2021 Tentang {{Kekerasan Seksual}}}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\LB5AWV78\\salinan_20211025_095433_Salinan_Permen 30 Tahun 2021 tentang Kekerasan Seksual fix.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://jdih.kemdikbud.go.id/sjdih/siperpu/dokumen/salinan/salinan_20211025_095433_Salinan_Permen%2030%20Tahun%202021%20tentang%20Kekerasan%20Seksual%20fix.pdf
+      \endverb
+      \verb{url}
+      \verb https://jdih.kemdikbud.go.id/sjdih/siperpu/dokumen/salinan/salinan_20211025_095433_Salinan_Permen%2030%20Tahun%202021%20tentang%20Kekerasan%20Seksual%20fix.pdf
+      \endverb
+    \endentry
+    \entry{chandraNadiemMakarimSexual2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ca9a5e3e10198111e0ed116aa6c12d71}{%
+           family={CHANDRA},
+           familyi={C\bibinitperiod},
+           given={GRACE\bibnamedelima NADIA},
+           giveni={G\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Jakarta Globe}%
+      }
+      \strng{namehash}{ca9a5e3e10198111e0ed116aa6c12d71}
+      \strng{fullhash}{ca9a5e3e10198111e0ed116aa6c12d71}
+      \strng{bibnamehash}{ca9a5e3e10198111e0ed116aa6c12d71}
+      \strng{authorbibnamehash}{ca9a5e3e10198111e0ed116aa6c12d71}
+      \strng{authornamehash}{ca9a5e3e10198111e0ed116aa6c12d71}
+      \strng{authorfullhash}{ca9a5e3e10198111e0ed116aa6c12d71}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{According to a 2020 survey, 77 percent of Indonesian professors believed that sexual violence has previously occurred on campus.}
+      \field{day}{13}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shorttitle}{Nadiem {{Makarim}}}
+      \field{title}{Nadiem {{Makarim}}: {{Sexual Violence}} on {{Indonesian Campuses Is}} a {{Critical Emergency}}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\7CYEU7A3\\nadiem-makarim-sexual-violence-on-indonesian-campuses-is-a-critical-emergency.html
+      \endverb
+      \verb{urlraw}
+      \verb https://jakartaglobe.id/news/nadiem-makarim-sexual-violence-on-indonesian-campuses-is-a-critical-emergency
+      \endverb
+      \verb{url}
+      \verb https://jakartaglobe.id/news/nadiem-makarim-sexual-violence-on-indonesian-campuses-is-a-critical-emergency
+      \endverb
+    \endentry
+    \entry{maleSurvei84Persen}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b1f563b6a78a815ea8b2807731f7c817}{%
+           family={Male},
+           familyi={M\bibinitperiod},
+           given={Cynthia\bibnamedelima Amanda},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Dream.co.id}%
+      }
+      \strng{namehash}{b1f563b6a78a815ea8b2807731f7c817}
+      \strng{fullhash}{b1f563b6a78a815ea8b2807731f7c817}
+      \strng{bibnamehash}{b1f563b6a78a815ea8b2807731f7c817}
+      \strng{authorbibnamehash}{b1f563b6a78a815ea8b2807731f7c817}
+      \strng{authornamehash}{b1f563b6a78a815ea8b2807731f7c817}
+      \strng{authorfullhash}{b1f563b6a78a815ea8b2807731f7c817}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Wanita Indonesia ternyata masih kurang percaya diri dengan penampilannya}
+      \field{langid}{english}
+      \field{shorttitle}{Survei}
+      \field{title}{Survei: 84 {{Persen Wanita Indonesia Tak Merasa Cantik}}}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\H735WSAI\\survei-84-persen-wanita-indonesia-tak-merasa-cantik-1809254.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.dream.co.id/lifestyle/survei-84-persen-wanita-indonesia-tak-merasa-cantik-1809254.html
+      \endverb
+      \verb{url}
+      \verb https://www.dream.co.id/lifestyle/survei-84-persen-wanita-indonesia-tak-merasa-cantik-1809254.html
+      \endverb
+    \endentry
+    \entry{prianti2013indonesian}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2600733568b8ff0d3163029ba711b324}{%
+           family={Prianti},
+           familyi={P\bibinitperiod},
+           given={DD},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IAFOR Osaka}%
+      }
+      \strng{namehash}{2600733568b8ff0d3163029ba711b324}
+      \strng{fullhash}{2600733568b8ff0d3163029ba711b324}
+      \strng{bibnamehash}{2600733568b8ff0d3163029ba711b324}
+      \strng{authorbibnamehash}{2600733568b8ff0d3163029ba711b324}
+      \strng{authornamehash}{2600733568b8ff0d3163029ba711b324}
+      \strng{authorfullhash}{2600733568b8ff0d3163029ba711b324}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Asian Conference on Media and Mass Communication}
+      \field{title}{Indonesian Female Beauty Concept: {{Does}} It Take into Account the Traditional Values}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{346\bibrangedash 357}
+      \range{pages}{12}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\SLPJVUBK\\Prianti - 2013 - Indonesian female beauty concept Does it take int.pdf
+      \endverb
+    \endentry
+    \entry{fardoulyNegativeComparisonsOne2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3f2b49465f845b5ff26c37db9ecb6148}{%
+           family={Fardouly},
+           familyi={F\bibinitperiod},
+           given={Jasmine},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5f99d0160ef22b0c369c86cb874e613}{%
+           family={Vartanian},
+           familyi={V\bibinitperiod},
+           given={Lenny\bibnamedelima R.},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{17397a2421c6feddc9b7de86efd6889f}
+      \strng{fullhash}{17397a2421c6feddc9b7de86efd6889f}
+      \strng{bibnamehash}{17397a2421c6feddc9b7de86efd6889f}
+      \strng{authorbibnamehash}{17397a2421c6feddc9b7de86efd6889f}
+      \strng{authornamehash}{17397a2421c6feddc9b7de86efd6889f}
+      \strng{authorfullhash}{17397a2421c6feddc9b7de86efd6889f}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Use of social media, such as Facebook, is pervasive among young women. Body dissatisfaction is also highly prevalent in this demographic. The present study examined the relationship between Facebook usage and body image concerns among female university students (N=227), and tested whether appearance comparisons on Facebook in general, or comparisons to specific female target groups (family members, close friends, distant peers [women one may know but do not regularly socialize with], celebrities) mediated this relationship. Results showed a positive relationship between Facebook usage and body image concerns, which was mediated by appearance comparisons in general, frequency of comparisons to close friends and distant peers, and by upward comparisons (judging one's own appearance to be worse) to distant peers and celebrities. Thus, young women who spend more time on Facebook may feel more concerned about their body because they compare their appearance to others (especially to peers) on Facebook.}
+      \field{day}{1}
+      \field{issn}{1740-1445}
+      \field{journaltitle}{Body Image}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Body Image}
+      \field{title}{Negative Comparisons about One's Appearance Mediate the Relationship between {{Facebook}} Usage and Body Image Concerns}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{volume}{12}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{82\bibrangedash 88}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.bodyim.2014.10.004
+      \endverb
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\XVY2WNJ4\\S1740144514001375.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1740144514001375
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1740144514001375
+      \endverb
+      \keyw{Appearance-related social comparison,Body dissatisfaction,Comparison target group,Drive for thinness,Facebook,Social media}
+    \endentry
+    \entry{wirasariKAJIANKECANTIKANKAUM2016}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1fcf164f28f48a653e7d83ce34f3cf18}{%
+           family={Wirasari},
+           familyi={W\bibinitperiod},
+           given={Ira},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1fcf164f28f48a653e7d83ce34f3cf18}
+      \strng{fullhash}{1fcf164f28f48a653e7d83ce34f3cf18}
+      \strng{bibnamehash}{1fcf164f28f48a653e7d83ce34f3cf18}
+      \strng{authorbibnamehash}{1fcf164f28f48a653e7d83ce34f3cf18}
+      \strng{authornamehash}{1fcf164f28f48a653e7d83ce34f3cf18}
+      \strng{authorfullhash}{1fcf164f28f48a653e7d83ce34f3cf18}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{2502-2431}
+      \field{journaltitle}{Demandia : Jurnal Desain Komunikasi Visual, Manajemen Desain, dan Periklanan}
+      \field{langid}{american}
+      \field{month}{9}
+      \field{shortjournal}{1}
+      \field{title}{{{KAJIAN KECANTIKAN KAUM PEREMPUAN DALAM IKLAN}}}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{146\bibrangedash 156}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.25124/demandia.v1i02.278
+      \endverb
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\RXHK2JV3\\Wirasari - 2016 - KAJIAN KECANTIKAN KAUM PEREMPUAN DALAM IKLAN.pdf;E\:\\kuliah\\zotero\\storage\\V5RDTZHQ\\278.html
+      \endverb
+      \verb{urlraw}
+      \verb //journals.telkomuniversity.ac.id/demandia/article/view/278
+      \endverb
+      \verb{url}
+      \verb //journals.telkomuniversity.ac.id/demandia/article/view/278
+      \endverb
+    \endentry
+    \entry{kumparanwomanBagaimanaCaraMeningkatkan2019}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19a3ed46584bea2e26e52f41423f5906}{%
+           family={{kumparanWOMAN}},
+           familyi={k\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {kumparan}%
+      }
+      \strng{namehash}{19a3ed46584bea2e26e52f41423f5906}
+      \strng{fullhash}{19a3ed46584bea2e26e52f41423f5906}
+      \strng{bibnamehash}{19a3ed46584bea2e26e52f41423f5906}
+      \strng{authorbibnamehash}{19a3ed46584bea2e26e52f41423f5906}
+      \strng{authornamehash}{19a3ed46584bea2e26e52f41423f5906}
+      \strng{authorfullhash}{19a3ed46584bea2e26e52f41423f5906}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Percaya diri merupakan salah satu faktor penting, karena bisa menunjang kesuksesan dalam tiap lini kehidupan.}
+      \field{day}{23}
+      \field{langid}{indonesian}
+      \field{month}{11}
+      \field{title}{Bagaimana Cara Meningkatkan Percaya Diri pada Perempuan?}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\5AZQDVQC\\full.html
+      \endverb
+      \verb{urlraw}
+      \verb https://kumparan.com/kumparanwoman/bagaimana-cara-meningkatkan-percaya-diri-pada-perempuan-1sIroKJn3RZ
+      \endverb
+      \verb{url}
+      \verb https://kumparan.com/kumparanwoman/bagaimana-cara-meningkatkan-percaya-diri-pada-perempuan-1sIroKJn3RZ
+      \endverb
+    \endentry
+    \entry{wisnubrataCaraMemancarkanInner2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=24fc3725757a1d94df544835122618f2}{%
+           family={{Wisnubrata}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {KOMPAS.com}%
+      }
+      \strng{namehash}{24fc3725757a1d94df544835122618f2}
+      \strng{fullhash}{24fc3725757a1d94df544835122618f2}
+      \strng{bibnamehash}{24fc3725757a1d94df544835122618f2}
+      \strng{authorbibnamehash}{24fc3725757a1d94df544835122618f2}
+      \strng{authornamehash}{24fc3725757a1d94df544835122618f2}
+      \strng{authorfullhash}{24fc3725757a1d94df544835122618f2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ada yang lebih abadi dari kecantikan fisik, yaitu kecantikan dari dalam atau inner beauty. Halaman all}
+      \field{day}{3}
+      \field{hour}{9}
+      \field{langid}{indonesian}
+      \field{minute}{9}
+      \field{month}{4}
+      \field{second}{6}
+      \field{timezone}{Z}
+      \field{title}{Cara Memancarkan Inner Beauty, Kecantikan dari Lubuk Hati Halaman all}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\MDSXWT6T\\cara-memancarkan-inner-beauty-kecantikan-dari-lubuk-hati.html
+      \endverb
+      \verb{urlraw}
+      \verb https://lifestyle.kompas.com/read/2020/04/03/160906320/cara-memancarkan-inner-beauty-kecantikan-dari-lubuk-hati
+      \endverb
+      \verb{url}
+      \verb https://lifestyle.kompas.com/read/2020/04/03/160906320/cara-memancarkan-inner-beauty-kecantikan-dari-lubuk-hati
+      \endverb
+    \endentry
+    \entry{schmalzriedInnerBeautyFriendshipHypothesis2013}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=903c8ed1c7bb7447eac94ea986b59333}{%
+           family={Schmalzried},
+           familyi={S\bibinitperiod},
+           given={Lisa\bibnamedelima Katharin},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{903c8ed1c7bb7447eac94ea986b59333}
+      \strng{fullhash}{903c8ed1c7bb7447eac94ea986b59333}
+      \strng{bibnamehash}{903c8ed1c7bb7447eac94ea986b59333}
+      \strng{authorbibnamehash}{903c8ed1c7bb7447eac94ea986b59333}
+      \strng{authornamehash}{903c8ed1c7bb7447eac94ea986b59333}
+      \strng{authorfullhash}{903c8ed1c7bb7447eac94ea986b59333}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article analyses different hypotheses about inner beauty. In a Platonic tradition, an inwardly beautiful person is considered to be a moral person. But not all moral actions and character traits are equally relevant for inner beauty. And inner beauty also depends on morally praiseworthy actions and character traits. Furthermore, morally neutral character traits like intelligence, humour, or optimism matter as well. This paper formulates and defends the friendship-hypothesis: an inwardly beautiful person behaves towards others as if they were her friends, and her personality and her character traits would make her a good friend. The friendship-hypothesis alludes to the traditionally assumed close connection between beauty and love. And it can explain why also judgements of inner beauty flicker between objectivity and subjectivity. As the friendship-hypothesis only indicates similarities between inner beauty and beauty in general, it is compatible both with a literal and a metaphorical interpretation of inner beauty.}
+      \field{langid}{english}
+      \field{title}{Inner {{Beauty}} — {{The Friendship-Hypothesis}}}
+      \field{volume}{5}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\54XFPGCS\\Schmalzried - 2013 - Inner Beauty — The Friendship-Hypothesis.pdf
+      \endverb
+    \endentry
+    \entry{fimela.comIniAlasanMengapa2018}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=86a816dad059f7516b054f503f416588}{%
+           family={Fimela.com},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {fimela.com}%
+      }
+      \strng{namehash}{86a816dad059f7516b054f503f416588}
+      \strng{fullhash}{86a816dad059f7516b054f503f416588}
+      \strng{bibnamehash}{86a816dad059f7516b054f503f416588}
+      \strng{authorbibnamehash}{86a816dad059f7516b054f503f416588}
+      \strng{authornamehash}{86a816dad059f7516b054f503f416588}
+      \strng{authorfullhash}{86a816dad059f7516b054f503f416588}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mengapa orang lebih suka hati yang cantik dibanding tampilan fisik yang cantik? Ternyata ini lho alasannya.}
+      \field{day}{27}
+      \field{hour}{15}
+      \field{langid}{indonesian}
+      \field{minute}{0}
+      \field{month}{2}
+      \field{second}{0}
+      \field{timezone}{+07\bibtzminsep 00}
+      \field{title}{Ini Alasan Mengapa Inner Beauty Lebih Penting Ketimbang Outer Beauty}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\5WH5TWS4\\jakarta-masuk-daftar-50-kota-terbaik-di-dunia-terkait-respons-covid-19.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.fimela.com/fimela/read/3778422/ini-alasan-mengapa-inner-beauty-lebih-penting-ketimbang-outer-beauty
+      \endverb
+      \verb{url}
+      \verb https://www.fimela.com/fimela/read/3778422/ini-alasan-mengapa-inner-beauty-lebih-penting-ketimbang-outer-beauty
+      \endverb
+    \endentry
+    \entry{InnerBeautyLebih}{online}{}
+      \list{organization}{1}{%
+        {SehatQ}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kecantikan fisik dapat memudar seiring berjalannya waktu, sementara inner beauty justru lebih abadi. Semua orang sebenarnya memiliki potensi inner beauty, hanya saja tidak semua tahu bagaimana memancarkan kecantikan dari dalam hati ini.}
+      \field{langid}{indonesian}
+      \field{title}{Inner Beauty Lebih Penting dari Kecantikan Fisik, Benarkah?}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\F5CGTFUJ\\cara-memancarkan-inner-beauty-kecantikan-dari-lubuk-hati.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sehatq.com/artikel/cara-memancarkan-inner-beauty-kecantikan-dari-lubuk-hati
+      \endverb
+      \verb{url}
+      \verb https://www.sehatq.com/artikel/cara-memancarkan-inner-beauty-kecantikan-dari-lubuk-hati
+      \endverb
+    \endentry
+    \entry{islameyWacanaStandarKecantikan2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e328c3ecbde5e185085122be025a98f2}{%
+           family={Islamey},
+           familyi={I\bibinitperiod},
+           given={Ghela\bibnamedelima Rakhma},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e328c3ecbde5e185085122be025a98f2}
+      \strng{fullhash}{e328c3ecbde5e185085122be025a98f2}
+      \strng{bibnamehash}{e328c3ecbde5e185085122be025a98f2}
+      \strng{authorbibnamehash}{e328c3ecbde5e185085122be025a98f2}
+      \strng{authornamehash}{e328c3ecbde5e185085122be025a98f2}
+      \strng{authorfullhash}{e328c3ecbde5e185085122be025a98f2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Peran media dalam kehidupan sosial dapat mempresentasikan berbagai informasi dan ide kepada khalayak. Secara tidak langsung, media telah memberi peran dalam membentuk konstruksi sosial yang berkembang di masyarakat. Tidak dipungkiri pula, media telah turut andil dalam memberikan identitas dari standar kecantikan. Salah satu media cetak hiburan adalah majalah. Di Indonesia, majalah Indonesia beragam jenisnya, namun yang telah cukup lama bergaung di Indonesia dan menjadi kegemaran banyak perempuan Indonesia, yakni majalah Femina. Sebagai daya tarik majalah, sampul majalah merupakan hal yang pertama kali diperhatikan. Sebagai majalah perempuan, Femina memakai wajah perempuan untuk cover majalah mereka. Hal ini dilakukan untuk mempertegas identitas mereka sebagai majalah perempuan. Perempuan dalam sampul majalah Femina adalah perempuan yang dianggap cantik dan sesuai dengan isu yang ada pada majalah tersebut. Tulisan ini membahas konstruksi sampul majalah Femina menampilkan standar kecantikan perempuan Indonesia. Penelitian ini menggunakan pendekatan konstruksitivisme dengan metode semiotik dari Roland Barthes. Sampul majalah Femina mencerminkan bahwa perempuan adalah seorang ibu sekaligus seorang istri, juga memiliki karir yang sukses. Hasil penelitian ini menggambarkan standar kecantikan perempuan Indonesia yang dimunculkan pada majalah Femina adalah muda, berkulit mulus dan putih, bertubuh langsing, menggunakan busana yang sedang tren (high fashion), menggunakan makeup yang tidak berlebihan, dan seksi sekaligus kuat (memiliki power).}
+      \field{day}{24}
+      \field{issn}{2655-6405}
+      \field{issue}{2}
+      \field{journaltitle}{Jurnal PIKMA : Publikasi Ilmu Komunikasi Media Dan Cinema}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{2}
+      \field{title}{Wacana {{Standar Kecantikan Perempuan Indonesia}} Pada {{Sampul Majalah Femina}}}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{volume}{2}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{110\bibrangedash 119}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.24076/PIKMA.2020v2i2.400
+      \endverb
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\HAPUPZMZ\\Islamey - 2020 - Wacana Standar Kecantikan Perempuan Indonesia pada.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://jurnal.amikom.ac.id/index.php/pikma/article/view/400
+      \endverb
+      \verb{url}
+      \verb https://jurnal.amikom.ac.id/index.php/pikma/article/view/400
+      \endverb
+      \keyw{Femina,Majalah,Perempuan,Sampul,Semiotika}
+    \endentry
+    \entry{mediaTakHarusKulit2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e8f0ba6e3e7736c7ac9a1d03fbdfaf72}{%
+           family={Media},
+           familyi={M\bibinitperiod},
+           given={Kompas\bibnamedelima Cyber},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {KOMPAS.com}%
+      }
+      \strng{namehash}{e8f0ba6e3e7736c7ac9a1d03fbdfaf72}
+      \strng{fullhash}{e8f0ba6e3e7736c7ac9a1d03fbdfaf72}
+      \strng{bibnamehash}{e8f0ba6e3e7736c7ac9a1d03fbdfaf72}
+      \strng{authorbibnamehash}{e8f0ba6e3e7736c7ac9a1d03fbdfaf72}
+      \strng{authornamehash}{e8f0ba6e3e7736c7ac9a1d03fbdfaf72}
+      \strng{authorfullhash}{e8f0ba6e3e7736c7ac9a1d03fbdfaf72}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kata Ashanty, perempuan Indonesia memiliki kecantikan sendiri yang tidak bisa disamakan dengan perempuan dari negara lain. Halaman all}
+      \field{day}{4}
+      \field{hour}{12}
+      \field{langid}{indonesian}
+      \field{minute}{34}
+      \field{month}{10}
+      \field{second}{48}
+      \field{timezone}{Z}
+      \field{title}{Tak Harus Kulit Putih, Ini Definisi Perempuan Cantik Menurut Ashanty Halaman all}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\666S8DJB\\tak-harus-kulit-putih-ini-definisi-perempuan-cantik-menurut-ashanty.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.kompas.com/hype/read/2021/10/04/193448366/tak-harus-kulit-putih-ini-definisi-perempuan-cantik-menurut-ashanty
+      \endverb
+      \verb{url}
+      \verb https://www.kompas.com/hype/read/2021/10/04/193448366/tak-harus-kulit-putih-ini-definisi-perempuan-cantik-menurut-ashanty
+      \endverb
+    \endentry
+    \entry{oakesComplicatedTruthSocial}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a9bde13631c3794d27369a719df36f7f}{%
+           family={Oakes},
+           familyi={O\bibinitperiod},
+           given={Kelly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a9bde13631c3794d27369a719df36f7f}
+      \strng{fullhash}{a9bde13631c3794d27369a719df36f7f}
+      \strng{bibnamehash}{a9bde13631c3794d27369a719df36f7f}
+      \strng{authorbibnamehash}{a9bde13631c3794d27369a719df36f7f}
+      \strng{authornamehash}{a9bde13631c3794d27369a719df36f7f}
+      \strng{authorfullhash}{a9bde13631c3794d27369a719df36f7f}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many of us suspect that the beautiful, often highly-edited images of people we see on social media make us feel worse about our own bodies. But what does the research say?}
+      \field{langid}{english}
+      \field{title}{The Complicated Truth about Social Media and Body Image}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\SPKU9PI7\\20190311-how-social-media-affects-body-image.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.bbc.com/future/article/20190311-how-social-media-affects-body-image
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/future/article/20190311-how-social-media-affects-body-image
+      \endverb
+    \endentry
+    \entry{obioraDarkSideSocial0100}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f5c5bcd1ede1f7f07404849987959559}{%
+           family={Obiora},
+           familyi={O\bibinitperiod},
+           given={Ntianu},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Pulse Nigeria}%
+      }
+      \strng{namehash}{f5c5bcd1ede1f7f07404849987959559}
+      \strng{fullhash}{f5c5bcd1ede1f7f07404849987959559}
+      \strng{bibnamehash}{f5c5bcd1ede1f7f07404849987959559}
+      \strng{authorbibnamehash}{f5c5bcd1ede1f7f07404849987959559}
+      \strng{authornamehash}{f5c5bcd1ede1f7f07404849987959559}
+      \strng{authorfullhash}{f5c5bcd1ede1f7f07404849987959559}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{These days, social media is doing more harm than good with young men and women becoming increasingly insecure due to unrealistic beauty ideals}
+      \field{langid}{english}
+      \field{shorttitle}{The Dark Side of Social Media}
+      \field{title}{The Dark Side of Social Media: {{How}} Unrealistic Beauty Standards Are Causing Identity Issues}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{08:35:00+0100}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.pulse.ng/lifestyle/beauty-health/the-dark-side-of-social-media-how-unrealistic-beauty-standards-are-causing-identity/hv4tffb
+      \endverb
+      \verb{url}
+      \verb https://www.pulse.ng/lifestyle/beauty-health/the-dark-side-of-social-media-how-unrealistic-beauty-standards-are-causing-identity/hv4tffb
+      \endverb
+    \endentry
+    \entry{puspitasariDiscourseShiftingLocal2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c13364b146938b361fe8eaa430e764b1}{%
+           family={Puspitasari},
+           familyi={P\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43b711ea56a87961eaa9cc89638ac5f4}{%
+           family={Suryadi},
+           familyi={S\bibinitperiod},
+           given={Yudi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8fb8392af95f7096f79224ebde81f367}
+      \strng{fullhash}{8fb8392af95f7096f79224ebde81f367}
+      \strng{bibnamehash}{8fb8392af95f7096f79224ebde81f367}
+      \strng{authorbibnamehash}{8fb8392af95f7096f79224ebde81f367}
+      \strng{authornamehash}{8fb8392af95f7096f79224ebde81f367}
+      \strng{authorfullhash}{8fb8392af95f7096f79224ebde81f367}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The desire to be beautiful among Indonesian women today is influenced by the construction of beauty from outside of the culture. The popular culture of parts of East Asia has entered Indonesia and the Eastern concept of beauty has brought in a different paradigm compared to the local beauty of the Indonesian people. This study is a descriptive qualitative study involving discourse analysis that examines the shift in the construction of beauty held by Indonesian women in the decades 1990-2000 and 2001-2010 through the cosmetic advertisements that appeared on television. Through this research, the shift in the concept of beauty and the discourse hidden behind the present construction of beauty will be revealed. The results found that in the early 1990s, Indonesian women were still oriented towards the reality of the condition that Indonesian women’s skin is tanned. This shifted to the concept of fair skin being preferred using traditional ethnic materials in Indonesia. From the 2000s up until the present, the increasingly popular culture of Japan and Korea has made Indonesian women want white skin like Japanese and Korean women. The change is driven by the desire to be beautiful by those who have experienced the shift in the discourse and beauty concept. Capitalists, as the owners of capital, always want to reap the benefits of every phenomenon that occurs in society. The use of different taglines on the beauty products is a beauty discourse construction strategy in itself and it is a form of symbolic violence against women.}
+      \field{day}{2}
+      \field{issn}{2528-6013}
+      \field{issue}{1}
+      \field{journaltitle}{Masyarakat, Kebudayaan dan Politik}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shorttitle}{Discourse on the Shifting of Local Beauty}
+      \field{title}{Discourse on the Shifting of Local Beauty: {{Concepts}} in an {{Easternization}} Era}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{36\bibrangedash 46}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.20473/mkp.V33I12020.36-46
+      \endverb
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\5NSXZI9M\\Puspitasari and Suryadi - 2020 - Discourse on the shifting of local beauty Concept.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://e-journal.unair.ac.id/MKP/article/view/14712
+      \endverb
+      \verb{url}
+      \verb https://e-journal.unair.ac.id/MKP/article/view/14712
+      \endverb
+      \keyw{beauty construction,beauty shifting,easternization,local beauty paradigms discourse}
+    \endentry
+    \entry{rachmanBalancingOuterInner2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=58212e87f49c33d6576b075988effa1e}{%
+           family={Rachman},
+           familyi={R\bibinitperiod},
+           given={Jessy\bibnamedelima Julia},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56a093b32e4432cd5c8b05210a56beeb}{%
+           family={Indarti},
+           familyi={I\bibinitperiod},
+           given={Yulia},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b1f9ab4bc20d86e987cdf269c99a0f9d}
+      \strng{fullhash}{b1f9ab4bc20d86e987cdf269c99a0f9d}
+      \strng{bibnamehash}{b1f9ab4bc20d86e987cdf269c99a0f9d}
+      \strng{authorbibnamehash}{b1f9ab4bc20d86e987cdf269c99a0f9d}
+      \strng{authornamehash}{b1f9ab4bc20d86e987cdf269c99a0f9d}
+      \strng{authorfullhash}{b1f9ab4bc20d86e987cdf269c99a0f9d}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kompas online is the online version of printed Kompas, one of the largest national newspapers in Indonesia. Kompas online not only includes news about politics and government, but also rubric about women. “Female” is a rubric that discusses everything about women. Since Kompas is not intended for specific gender, the main objective of this study is to reveal the presentation of the concept of beauty in Kompas online from Critical Discourse Analysis perspective. The analysis is based on Van Dijk’s three dimensional framework, those are text analysis, socio-cognition of the text producer and socio context. A qualitative research is applied in this study because this analysis needs an intense interpretation to perform a deep signification process. The data of this study was obtained from Female rubric in Kompas Online newspaper in 2013. The result of this study shows that Kompas has two main elements in presenting concept of beauty through the language use; those are physical appearance and personality. The concept of beauty in this media, in terms of physical of appearance, is presented as women with white-skin, long black hair, slim and tall and feminine look. While personality in this study described as smart woman, give significant contribution to the society, high confident, caring person, hard worker, strong will, attractive and friendly. Socio cognition analysis found that woman nowadays described as multitalented and extraordinary. Moreover, in societal analysis, discourses about beauty’s concept puts more emphasized in personality at first, and placed taking care of appearance then.}
+      \field{langid}{english}
+      \field{number}{02}
+      \field{title}{Balancing between {{Outer}} and {{Inner Beauty}}: {{A New Concept}} on {{Female Rubric}} of {{Kompas Online Newspaper}}}
+      \field{volume}{02}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\7CIGLPLL\\Rachman and Indarti - 2013 - Balancing between Outer and Inner Beauty A New Co.pdf
+      \endverb
+    \endentry
+    \entry{ratnaningtiasCantikDiInstagram2018}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b45fcf6eda005e0dbac1394b1989e42a}{%
+           family={Ratnaningtias},
+           familyi={R\bibinitperiod},
+           given={Nadia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=b1d740e693492c09b0ea278cdff80b4c}{%
+           family={Emrus},
+           familyi={E\bibinitperiod},
+           given={Emrus},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universitas Pelita Harapan}%
+      }
+      \strng{namehash}{b45fcf6eda005e0dbac1394b1989e42a}
+      \strng{fullhash}{b45fcf6eda005e0dbac1394b1989e42a}
+      \strng{bibnamehash}{b45fcf6eda005e0dbac1394b1989e42a}
+      \strng{authorbibnamehash}{b45fcf6eda005e0dbac1394b1989e42a}
+      \strng{authornamehash}{b45fcf6eda005e0dbac1394b1989e42a}
+      \strng{authorfullhash}{b45fcf6eda005e0dbac1394b1989e42a}
+      \strng{editorabibnamehash}{b1d740e693492c09b0ea278cdff80b4c}
+      \strng{editoranamehash}{b1d740e693492c09b0ea278cdff80b4c}
+      \strng{editorafullhash}{b1d740e693492c09b0ea278cdff80b4c}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Along with the development of digital technology, Instagram, as a social media platform with who have a broad user base, presents a social media practice that emphasize on visual aspects of self-expression. One of the important issues raised by the practice is the definition of beauty amongs women. The narrow definition of “beauty ideals” heralded by mass media and refered as the beauty standards by the wider sociaty is considered confining and oppresive towards women. Instagram users are often reproducing these standards in their social media activities. However digital technology, with its emphasize on user-generated contents, also provide spaces for the different definitions, that chalenges and negotiates the hegemonic beauty standards.Through the method of critical discourse analysis this research aims to investigate how the hegemonic beauty standard is chalenged and reinterpretated on Instagram through the postmodern feminism ideology brought by three “selebgram”, @wdkds, @hannamadness, and @eilwa. The results of this research show that non-hegemonic beauty definition receives good reception, indicating that the ideas of women equality and autonomy is readily acceptable in Indonesia. the acceptance is influenced by various factor and enables the construction of diverse beauty standards that no longer defined by certain body shapes, but also by all body shapes. Beauty also no loger constituted by physical appearances but also includes intelectual and mental capacities. / Seiring dengan perkembangan teknologi digital, Instagram, sebagai platform media sosial yang penetrasinya cukup tinggi, menghadirkan praktik bermedia sosial yang menekankan aspek visual dalam menunjukkan eksistensi diri. Salah satu isu yang kerap muncul adalah pemaknaan kecantikan perempuan. Pemaknaan “kecantikan ideal” yang kerap kali diagung-agungkan oleh media massa, dijadikan standar kecantikan yang berlaku di masyarakat, sehingga membuat perempuan terbelenggu. Pengguna Instagram pun kerap kali mereproduksi makna kecantikan ini. Namun teknologi digital, khususnya media sosial yang dicirikan oleh produksi user generated content, memungkinkan terciptanya definisi yang berbeda, yang menantang hegemoni “kecantikan ideal” tersebut. Melalui metode analisis wacana kritis, penelitian ini menyelidiki bagaimana ideologi feminism postmodern yang dimiliki oleh para selebgram mendobrak hegemoni yang ada dan memaknai kecantikan di Instagram, tiga akun selebgram perempuan yang diteliti antara lain @wdkds, @hanamadness, dan @eilwa. Hasil dari penelitian ini menunjukkan bahwa pemaknaan kecantikan nonhegemonik ini mendapat sambutan yang baik, menandakan bahwa ide-ide kesetaraan dan kemandirian perempuan mulai bisa diterima di Indonesia. Penerimaan yang dipengaruhi berbagai faktor ini memungkinkan terbentuknya konstruksi baru kecantikan yang bukan lagi ditentukan oleh bentuk tubuh tertentu, melainkan juga berasal dari berbagai bentuk tubuh. Kecantikan pun tidak lagi dimaknai sebatas penampilan fisik melainkan juga mencakup kecerdasan intelektual dan mental.}
+      \field{day}{6}
+      \field{editoratype}{collaborator}
+      \field{langid}{indonesian}
+      \field{month}{8}
+      \field{pagetotal}{185}
+      \field{shorttitle}{Cantik di Instagram}
+      \field{title}{Cantik di Instagram: selegram, feminisme postmodern dan pergeseran manka cantik pada selegram di media sosial Instagram}
+      \field{type}{mathesis}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10/chapter%206.pdf
+      \endverb
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\YR6CZUZD\\Ratnaningtias - 2018 - Cantik di Instagram selegram, feminisme postmoder.pdf;E\:\\kuliah\\zotero\\storage\\LD9BGHAG\\2663.html
+      \endverb
+      \verb{urlraw}
+      \verb http://repository.uph.edu/2663/
+      \endverb
+      \verb{url}
+      \verb http://repository.uph.edu/2663/
+      \endverb
+    \endentry
+    \entry{rizkiyahSTRATEGICOPINGPEREMPUAN2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7dabcf0baeb322dff312b9fb2262dd8c}{%
+           family={Rizkiyah},
+           familyi={R\bibinitperiod},
+           given={Iin},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dcdd398833a352c1808abf5b474c1da}{%
+           family={Apsari},
+           familyi={A\bibinitperiod},
+           given={Nurliana\bibnamedelima Cipta},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac7500817a4cdc13616431c4b53900f0}
+      \strng{fullhash}{ac7500817a4cdc13616431c4b53900f0}
+      \strng{bibnamehash}{ac7500817a4cdc13616431c4b53900f0}
+      \strng{authorbibnamehash}{ac7500817a4cdc13616431c4b53900f0}
+      \strng{authornamehash}{ac7500817a4cdc13616431c4b53900f0}
+      \strng{authorfullhash}{ac7500817a4cdc13616431c4b53900f0}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cantik merupakan hal yang diharapkan semua perempuan. Tujuan penelitian ini untuk mengetahui coping positif pada perempuan dalam menyikapi standarisasi cantik. Penelitian ini menggunakan pendekatan kualitatif dengan metode analisis konten dengan cara menjabarkan relative standar cantik dari artikel, jurnal dan buku. Penulis menjabarkan relativitas standarisasi cantik yang beragam dan strategi coping yang dilakukan oleh perempuan sebagai upaya pemenuhan standarisasi cantik ideal di lingkungannya. Hasil penelitian menemukan bahwa konstruksi cantik ideal yang berlaku di masyarakat akan selalu ada. Terdapat dua strategi coping yang terfokus pada (1) mengatasi masalah kurang cantik dengan perawatan tertentu dan (2) memodifikasi emosi dengan cara mengubah pemahaman tentang makna cantik. Perempuan mampu melakukan coping positif untuk mendistorsi pemikiran negatifnya akan kecantikan}
+      \field{day}{21}
+      \field{issn}{2407-1587}
+      \field{issue}{2}
+      \field{journaltitle}{Marwah: Jurnal Perempuan, Agama dan Jender}
+      \field{langid}{indonesian}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{STRATEGI COPING PEREMPUAN TERHADAP STANDARISASI CANTIK DI MASYARAKAT}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{volume}{18}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{133\bibrangedash 152}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.24014/marwah.v18i2.7371
+      \endverb
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\GWTMWSD7\\Rizkiyah and Apsari - 2020 - STRATEGI COPING PEREMPUAN TERHADAP STANDARISASI CA.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ejournal.uin-suska.ac.id/index.php/marwah/article/view/7371
+      \endverb
+      \verb{url}
+      \verb http://ejournal.uin-suska.ac.id/index.php/marwah/article/view/7371
+      \endverb
+      \keyw{Coping Emosi,Coping Masalah,Standarisasi Cantik}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

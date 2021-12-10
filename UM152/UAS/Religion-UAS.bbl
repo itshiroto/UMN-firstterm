@@ -1,0 +1,203 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{aarnioChallengesPackagingWaste2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=eba75cd650d3b523d95d1e66ad8452da}{%
+           family={Aarnio},
+           familyi={A\bibinitperiod},
+           given={Teija},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cdb1cc38d086ef18da2031b736027357}{%
+           family={Hämäläinen},
+           familyi={H\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{91d7afd5bffd6203efee2c234af22db6}
+      \strng{fullhash}{91d7afd5bffd6203efee2c234af22db6}
+      \strng{bibnamehash}{91d7afd5bffd6203efee2c234af22db6}
+      \strng{authorbibnamehash}{91d7afd5bffd6203efee2c234af22db6}
+      \strng{authornamehash}{91d7afd5bffd6203efee2c234af22db6}
+      \strng{authorfullhash}{91d7afd5bffd6203efee2c234af22db6}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The recovery of solid waste is required by waste legislation, and also by the public. In some industries, however, waste is mostly disposed of in landfills despite of its high recoverability. Practical experiences show that the fast food industry is one example of these industries. A majority of the solid waste generated in the fast food industry is packaging waste, which is highly recoverable. The main research problem of this study was to find out the means of promoting the recovery of packaging waste generated in the fast food industry. Additionally, the goal of this article was to widen academic understanding on packaging waste management in the fast food industry, as the subject has not gained large academic interest previously. The study showed that the theoretical recovery rate of packaging waste in the fast food industry is high, 93\% of the total annual amount, while the actual recovery rate is only 29\% of the total annual amount. The total recovery potential of packaging waste is 64\% of the total annual amount. The achievable recovery potential, 33\% of the total annual amount, could be recovered, but is not mainly because of non-working waste management practices. The theoretical recovery potential of 31\% of the total annual amount of packaging waste cannot be recovered by the existing solid waste infrastructure because of the obscure status of commercial waste, the improper operation of producer organisations, and the municipal autonomy. The research indicated that it is possible to reach the achievable recovery potential in the existing solid waste infrastructure through new waste management practices, which are designed and operated according to waste producers’ needs and demands. The theoretical recovery potential can be reached by increasing the consistency of the solid waste infrastructure through governmental action.}
+      \field{day}{1}
+      \field{issn}{0921-3449}
+      \field{journaltitle}{Resources, Conservation and Recycling}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{4}
+      \field{shortjournal}{Resources, Conservation and Recycling}
+      \field{title}{Challenges in Packaging Waste Management in the Fast Food Industry}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{volume}{52}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{612\bibrangedash 621}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.resconrec.2007.08.002
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0921344907001620
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0921344907001620
+      \endverb
+      \keyw{Commercial waste,Fast food industry,Packaging waste,Recovery potential,Recovery rate}
+    \endentry
+    \entry{albertusKonsumerismeTerhadapGawai2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a42ed5587469ac8bfc99d5201fe226c0}{%
+           family={Albertus},
+           familyi={A\bibinitperiod},
+           given={Yanuar},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a42ed5587469ac8bfc99d5201fe226c0}
+      \strng{fullhash}{a42ed5587469ac8bfc99d5201fe226c0}
+      \strng{bibnamehash}{a42ed5587469ac8bfc99d5201fe226c0}
+      \strng{authorbibnamehash}{a42ed5587469ac8bfc99d5201fe226c0}
+      \strng{authornamehash}{a42ed5587469ac8bfc99d5201fe226c0}
+      \strng{authorfullhash}{a42ed5587469ac8bfc99d5201fe226c0}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Tulisan ini membahas mengenai bagaimana dampak konsumerisme terhadap gawai bagi kelestarian lingkungan. Konsumsi terhadap gawai dalam kurun waktu beberapa tahun terakhir meningkat tajam. Hal ini dibuktikan dengan massifnya penggunaan peranti teknologi tersebut oleh masyarakat dunia secara keseluruhan. Fenomena ini mengarah pada apa yang disebut dengan konsumerisme, yakni suatu kondisi masyarakat yang didalamnya konsumsi dilakukan tidak lagi untuk memenuhi kebutuhan, tetapi justru menjadi tujuan dan gaya hidup. Argumen penulis adalah bahwa konsumerisme terhadap peranti teknologi membawa ancaman yang serius bagi kelestarian lingkungan, khususnya terkait dua hal, yakni eksploitasi sumber daya yang semakin intensif serta dihasilkannya limbah elektronik yang dapat mencemari lingkungan. Analisis dilakukan dengan menggunakan studi literatur dan untuk memperkuat argumen penulis, tulisan ini juga mengangkat studi kasus fenomena konsumerisme terhadap produk Apple Inc. sebagai perusahaan teknologi terbesar di dunia, khususnya iPhone yang menjadi produk utama dari perusahaan tersebut.}
+      \field{day}{4}
+      \field{issn}{2715-1565}
+      \field{issue}{1}
+      \field{journaltitle}{Jurnal Hubungan Internasional}
+      \field{langid}{indonesian}
+      \field{month}{6}
+      \field{number}{1}
+      \field{shorttitle}{Konsumerisme terhadap Gawai dan Dampaknya bagi Lingkungan}
+      \field{title}{Konsumerisme terhadap Gawai dan Dampaknya bagi Lingkungan: Studi Kasus pada Apple Inc.}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{volume}{13}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{65\bibrangedash 84}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.20473/jhi.v13i1.17616
+      \endverb
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\YNZDDXIQ\\Albertus - 2020 - Konsumerisme terhadap Gawai dan Dampaknya bagi Lin.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.e-journal.unair.ac.id/JHI/article/view/17616
+      \endverb
+      \verb{url}
+      \verb https://www.e-journal.unair.ac.id/JHI/article/view/17616
+      \endverb
+      \keyw{Apple Inc.,Gawai,Konsumerisme,Konsumsi,Lingkungan}
+    \endentry
+    \entry{chakrabartyHumanSciencesClimate2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=98042e41ce9468f0bbece2618470aefb}{%
+           family={Chakrabarty},
+           familyi={C\bibinitperiod},
+           given={Dipesh},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{98042e41ce9468f0bbece2618470aefb}
+      \strng{fullhash}{98042e41ce9468f0bbece2618470aefb}
+      \strng{bibnamehash}{98042e41ce9468f0bbece2618470aefb}
+      \strng{authorbibnamehash}{98042e41ce9468f0bbece2618470aefb}
+      \strng{authornamehash}{98042e41ce9468f0bbece2618470aefb}
+      \strng{authorfullhash}{98042e41ce9468f0bbece2618470aefb}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{issn}{0036-8156}
+      \field{journaltitle}{Science and Culture}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1-2}
+      \field{title}{The {{Human Sciences}} and {{Climate Change}}}
+      \field{urlday}{3}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{volume}{86}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{46}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.36094/sc.v86.2020.Climate_Change.Chakrabarty.46
+      \endverb
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\K84FGKUD\\Chakrabarty - 2020 - The Human Sciences and Climate Change.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.scienceandculture-isna.org/2020/Jan-Feb/07%20Dipesh%20Chakrabarty.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.scienceandculture-isna.org/2020/Jan-Feb/07%20Dipesh%20Chakrabarty.pdf
+      \endverb
+    \endentry
+    \entry{GlobalEwasteGeneration}{online}{}
+      \list{organization}{1}{%
+        {Statista}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Since 2010, the volume of e-waste generated globally has been steadily rising.}
+      \field{langid}{english}
+      \field{title}{Global E-Waste Generation 2010-2019}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb E\:\\kuliah\\zotero\\storage\\MBJQ77WZ\\projection-ewaste-generation-worldwide.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/499891/projection-ewaste-generation-worldwide/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/499891/projection-ewaste-generation-worldwide/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

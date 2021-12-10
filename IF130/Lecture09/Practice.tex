@@ -1,0 +1,332 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{plex-otf}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\setlength{\parskip}{0pt} 
+\setlength{\parindent}{0pt}
+
+\newcommand{\mytitle}{Week 9 Assignments}
+\newcommand{\theauthor}{Rivo Juicer Wowor}
+\newcommand{\affiliation}{00000059635}
+
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \lhead{\footnotesize{\textbf{\mytitle}}}%
+  \fancyfoot[R]{\thepage}%
+  \fancyfoot[L]{\footnotesize{\theauthor \hspace{1pt} (\affiliation)}}
+  \renewcommand{\headrulewidth}{0.4pt}% Line at the header invisible
+  \renewcommand{\footrulewidth}{0.4pt}% Footer line not visible with 0pt
+}
+
+\lstdefinestyle{code}{
+    breaklines=true,
+    language=[ANSI]C,
+    numbers=left,
+    numbersep=12pt,
+    numberstyle=\footnotesize,
+    tabsize=2,
+    showstringspaces=false,
+	basicstyle=\normalsize \linespread{1.2},
+    frame=lines,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
+\lstdefinestyle{output}{
+    breaklines=true,
+    frame=shadowbox
+}
+ 
+\pagestyle{plain}
+
+\begin{document}
+    \section*{Practice 1}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int x;
+    x = 5 * 8 - 7 + 2 * 3 - 3 + 4 / 2 + 2;
+    printf("%i\n", x);
+    return 0;
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+40
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 2}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int x = 14, y = 5;
+    y = x++ % 3;
+    printf("%i\n", x);
+    printf("%i\n", y);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+15
+2
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 3}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int x = 3, y = 5;
+    y *= 12 / ++x;
+    printf("%i\n", x);
+    printf("%i\n", y);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+4
+15
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 4}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int x = 10, y = 20, z = 30;
+    x *= y += ++z;
+
+    printf("%i\n", x);
+    printf("%i\n", y);
+    printf("%i\n", z);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+510
+51
+31
+        \end{lstlisting}
+    \end{minipage}
+    \section*{Practice 5}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int x = 10, y;
+    y = x++ + ++x;
+
+    printf("%i\n", x);
+    printf("%i\n", y);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+12
+22
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 6}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int x = 8, y;
+    y = ~x;
+
+    printf("%i\n", x);
+    printf("%i\n", y);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+8
+-9
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 7}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int x = 8, y = 6, p, q, r;
+    p = x & y;
+    q = x | y;
+    r = x ^ y;
+
+    printf("%i\n", p);
+    printf("%i\n", q);
+    printf("%i\n", r); 
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+0
+14
+14
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 8}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int x = 8, y = 12, z;
+    z = x << y / 4;
+    y >>= x / 4;
+
+    printf("%i\n", x);
+    printf("%i\n", y);
+    printf("%i\n", z);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+8
+3
+64
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 9}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int score = 48;
+    score >= 55 ? printf("Pass\n") : printf("Fail\n");
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+Fail
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 10}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int x, y, sum;
+    float avg;
+
+    printf("Number 1: ");
+    scanf("%i", &x);
+    printf("Number 2: ");
+    scanf("%i", &y);
+    printf("\n");
+
+    sum = x + y;
+    avg = (float) sum / 2;
+
+    printf("Sum = %i\n", sum);
+    printf("Average = %.2f\n", avg);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+$ Number 1: 5
+$ Number 2: 10
+
+  Sum = 15
+  Average = 7.50
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 11}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    const float pi = 3.14159;
+    int radius, diameter;
+    float circum, area;
+
+    printf("Radius: ");
+    scanf("%i", &radius);
+
+    diameter = radius * 2;
+    circum = pi * (float) diameter;
+    area = pi * radius * radius;
+
+    printf("Diameter = %i\n", diameter);
+    printf("Circumference = %.2f\n", circum);
+    printf("Area = %.2f\n", area);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+$ Radius: 5
+  Diameter = 10
+  Circumference = 31.42
+  Area = 78.54
+        \end{lstlisting}
+    \end{minipage}
+
+\end{document}

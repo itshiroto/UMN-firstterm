@@ -1,0 +1,218 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{plex-otf}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\setlength{\parskip}{0pt} 
+\setlength{\parindent}{0pt}
+
+\newcommand{\mytitle}{Week 10 Assignments}
+\newcommand{\theauthor}{Rivo Juicer Wowor}
+\newcommand{\affiliation}{00000059635}
+
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \lhead{\footnotesize{\textbf{\mytitle}}}%
+  \fancyfoot[R]{\thepage}%
+  \fancyfoot[L]{\footnotesize{\theauthor \hspace{1pt} (\affiliation)}}
+  \renewcommand{\headrulewidth}{0.4pt}% Line at the header invisible
+  \renewcommand{\footrulewidth}{0.4pt}% Footer line not visible with 0pt
+}
+
+\lstdefinestyle{code}{
+    breaklines=true,
+    language=[ANSI]C,
+    numbers=left,
+    numbersep=12pt,
+    numberstyle=\footnotesize,
+    tabsize=2,
+    showstringspaces=false,
+	basicstyle=\normalsize \linespread{1.2},
+    frame=lines,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
+\lstdefinestyle{output}{
+    breaklines=true,
+    frame=shadowbox,
+    basicstyle=\normalsize
+}
+ 
+\pagestyle{plain}
+
+\begin{document}
+    \section*{Practice 1}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    float f = 387.469;
+    printf("%08.1f",f);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+000387.5
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 2}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int a = 153, b = 27;
+    printf("%5d%4d",a,b);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+  153  27
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 3}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int a = 422, c = 53;
+    float b = 93.244;
+    printf("%7.2f%-5d%d",b,a,c);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+  93.24422  53
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 4}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int a,b,c;
+    scanf("%d %o %x", &a,&b,&c);
+    printf("%3d%3d%d", a,b)
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+  8 2132
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 5}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int a,b,c;
+    scanf("%d %d %d", &a, &b, &c);
+    printf("%d %#o %#x",a,b,c);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+15 031 0x23
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 6}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int a = 88;
+    putchar(a++);
+    printf("3d",++a);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+X 90
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 7}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    char word[10];
+    scanf("%[aiueo]", &word);
+    printf("%s", word);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+$ autumn
+  au
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 8}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    char nama[20], id[12];
+
+    printf("Input: ");
+    scanf("%[^#]%*c%s", nama,id);
+
+    printf("Nama: %s\n", nama);
+    printf("ID: %s\n", id);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.5\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+$ Input: Misael Azarya#00000010430
+  Nama: Misael Azarya
+  ID: 00000010430
+        \end{lstlisting}
+    \end{minipage}
+\end{document}

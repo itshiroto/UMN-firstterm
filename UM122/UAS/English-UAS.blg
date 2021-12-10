@@ -1,0 +1,20 @@
+[2] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[2] Config.pm:307> INFO - Logfile is 'English-UAS.blg'
+[608] biber:322> INFO - === Fri Dec 10, 2021, 12:06:35
+[692] Biber.pm:415> INFO - Reading 'English-UAS.bcf'
+[873] Biber.pm:943> INFO - Found 19 citekeys in bib section 0
+[898] Biber.pm:4256> INFO - Processing section 0
+[899] Utils.pm:75> INFO - Globbing data source '../../ref/library.bib'
+[899] Utils.pm:91> INFO - Globbed data source '../../ref/library.bib' to ../../ref/library.bib
+[944] Biber.pm:4455> INFO - Looking for bibtex format file '../../ref/library.bib' for section 0
+[1242] bibtex.pm:1653> INFO - LaTeX decoding ...
+[2528] bibtex.pm:1471> INFO - Found BibTeX data source '../../ref/library.bib'
+[2547] Utils.pm:293> WARN - Duplicate entry key: 'mulyana2017bentuk' in file '../../ref/library.bib', skipping ...
+[2827] Utils.pm:293> WARN - year field '08:35:00+0100' in entry 'obioraDarkSideSocial0100' is not an integer - this will probably not sort properly.
+[2911] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2912] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2912] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2912] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[2970] bbl.pm:652> INFO - Writing 'English-UAS.bbl' with encoding 'UTF-8'
+[2987] bbl.pm:755> INFO - Output to English-UAS.bbl
+[2995] Biber.pm:128> INFO - WARNINGS: 2

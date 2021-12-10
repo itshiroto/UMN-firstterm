@@ -1,0 +1,300 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{plex-otf}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\setlength{\parskip}{0pt} 
+\setlength{\parindent}{0pt}
+
+\newcommand{\mytitle}{Week 11 Assignments}
+\newcommand{\theauthor}{Rivo Juicer Wowor}
+\newcommand{\affiliation}{00000059635}
+
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \lhead{\footnotesize{\textbf{\mytitle}}}%
+  \fancyfoot[R]{\thepage}%
+  \fancyfoot[L]{\footnotesize{\theauthor \hspace{1pt} (\affiliation)}}
+  \renewcommand{\headrulewidth}{0.4pt}% Line at the header invisible
+  \renewcommand{\footrulewidth}{0.4pt}% Footer line not visible with 0pt
+}
+
+\lstdefinestyle{code}{
+    breaklines=true,
+    language=[ANSI]C,
+    numbers=left,
+    numbersep=12pt,
+    numberstyle=\footnotesize,
+    tabsize=2,
+    showstringspaces=false,
+	basicstyle=\normalsize \linespread{1.2},
+    frame=lines,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+    morecomment=[l][\textcolor{lightgray}]{//}
+}
+
+\lstdefinestyle{output}{
+    breaklines=true,
+    frame=shadowbox,
+    basicstyle=\normalsize,
+    morecomment=[l][\textbf]{>},
+    morecomment=[l][\emph]{./}
+}
+ 
+\pagestyle{plain}
+
+\begin{document}
+
+    \section*{Blood example}
+    \large \textbf{Code}
+    \begin{lstlisting}[style=code]
+#include <stdio.h>
+
+int isdigit(char *input){
+    int i = 0;
+    while (input[i] != '\0') {
+      // check if element i of a string is a character based on ASCII code.
+      if (!(input[i] >= 48 && input[i] <= 57)) return 1; 
+      i++;
+    }
+    return 0;
+}
+
+int convertToInt(char *str){
+  int i = 0, result = 0;
+  while (str[i] != '\0') {
+    // Each i element in str variable is subtracted by 48 ('0' character on ASCII)
+    // to get the real number and then added to result variable.
+    result = result * 10 + str[i] - '0'; 
+    i++;
+  }
+  return result;
+}
+
+int main() {
+  char input[10]; // Initialize a string called 'input'
+  scanf("%s", input); // Get input
+
+  if (isdigit(input) == 1) { printf("Input contains character(s) other than numbers\n"); return 1; }
+
+  // Convert input to integer
+  int systolicBloodPressure = convertToInt(input); 
+
+  if (systolicBloodPressure > 140) printf("Hypertension\n");
+  else if(systolicBloodPressure > 120) printf("Pre-hypertension\n");
+  else if(systolicBloodPressure > 90) printf("Normal\n");
+  else printf("Hypotension\n");
+
+  return 0;
+}
+    \end{lstlisting}
+
+    \vspace{0.5cm}
+
+    \large \textbf{Output}
+    \begin{lstlisting}[style=output]
+./blood
+> 126
+Pre-hypertension
+
+./blood
+> 1A5
+Input contains character(s) other than numbers
+    \end{lstlisting}
+
+    \section*{Practice 1}
+    \begin{minipage}[t]{0.55\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int noise;
+
+    scanf("%d", &noise);
+    if(noise <= 50) printf("Quiet\n");
+    else if(noise <= 70) printf("Intrusive\n");
+    else if(noise <= 90) printf("Annoying\n");
+    else if(noise <= 110) printf("Very Annoying\n");
+    else printf("Uncomfortable\n");
+
+    return 0;
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.4\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+> 80
+Annoying
+        \end{lstlisting}
+    \end{minipage} 
+
+    \section*{Practice 2}
+    \begin{minipage}[t]{0.55\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int grade;
+
+    scanf("%d", &grade);
+    if(grade >= 55)
+        printf("Passed\n");
+    else {
+        printf("Failed\n");
+        printf("You must take this course again\n");
+    }
+    return 0;
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.4\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+> 85
+Passed
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 3}
+    \begin{minipage}[t]{0.55\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    char color;
+
+    color = getchar();
+    switch(color)
+    {
+        case 'R': printf("Red\n"); break;
+        case 'G': printf("Green\n"); break;
+        case 'B': printf("Blue\n"); break;
+    }
+
+    return 0;
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.4\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+> R
+Red
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 4}
+    \begin{minipage}[t]{0.55\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int ph;
+    printf("Kandungan PH: ");
+    scanf("%i", &ph);
+
+    if (ph > 7) {
+        if (ph < 12) {
+            printf("Alkaline");
+        } else {
+            printf("Very Alkaline");
+        }
+    } else {
+        if (ph == 7) {
+            printf("Neutral");
+        } else if (ph > 2) printf("Acidic");
+        else printf("Very Acidic");
+    }
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.4\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+> Kandungan PH: 18
+Very Alkaline
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 5}
+    \begin{minipage}[t]{0.55\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int lumens, watts;
+    scanf("Watts: %i", &watts);
+    switch(watts) {
+        case 15: lumens = 125; break;
+        case 25: lumens = 215; break;
+        case 40: lumens = 500; break;
+        case 60: lumens = 880; break;
+        case 75: lumens = 1000; break;
+        case 100: lumens = 1675; break;
+        default: lumens = -1; break;
+    }
+    printf("%i", lumens);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.4\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+./practice5
+> Watts: 25
+215
+
+./practice5
+> Watts: 78
+-1
+        \end{lstlisting}
+    \end{minipage}
+
+    \section*{Practice 6}
+    \begin{minipage}[t]{0.55\textwidth}
+        \large \textbf{Code}
+        \begin{lstlisting}[style=code]
+#include<stdio.h>
+
+int main(void){
+    int wind;
+    char* category;
+    printf("Wind speed: ");
+    scanf("%i", &wind);
+    if (wind < 25) category = "Not a strong wind";
+    else if (wind >= 25 && wind < 39) category = "Strong wind";
+    else if (wind >= 39 && wind < 55) category = "Gale";
+    else if (wind >= 55 && wind < 73) category = "Whole gale";
+    else category = "Hurricane";
+
+    printf("Category: %s\n", category);
+}
+        \end{lstlisting}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[t]{0.4\textwidth}
+        \large \textbf{Output}
+        \begin{lstlisting}[style=output]
+./practice6
+> Wind speed: 75
+Category: Hurricane
+
+./practice6
+> Wind speed: 30
+Category: Strong wind
+        \end{lstlisting}
+    \end{minipage}
+\end{document}
