@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Civics-UAS.aux
+The style file: plainnat.bst
+Database file #1: ../../ref/library-legacy.bib
+Warning--empty year in alaidrusTransparansiMinimKepentingan
+Warning--empty journal in setiadiKORUPSIDIINDONESIA
+Warning--empty year in setiadiKORUPSIDIINDONESIA
+Warning--empty year in setiadiKORUPSIDIINDONESIA
+Warning--empty journal in setiadiKORUPSIDIINDONESIA2018
+Warning--empty year in transparencyinternationalGrandCorruptionOur
+You've used 17 entries,
+            2773 wiz_defined-function locations,
+            722 strings with 8331 characters,
+and the built_in function-call counts, 6299 in all, are:
+= -- 594
+> -- 196
+< -- 20
++ -- 75
+- -- 58
+* -- 402
+:= -- 965
+add.period$ -- 65
+call.type$ -- 17
+change.case$ -- 68
+chr.to.int$ -- 17
+cite$ -- 40
+duplicate$ -- 333
+empty$ -- 618
+format.name$ -- 79
+if$ -- 1348
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 13
+newline$ -- 106
+num.names$ -- 70
+pop$ -- 169
+preamble$ -- 1
+purify$ -- 53
+quote$ -- 0
+skip$ -- 235
+stack$ -- 0
+substring$ -- 215
+swap$ -- 41
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 177
+warning$ -- 6
+while$ -- 69
+width$ -- 0
+write$ -- 244
+(There were 6 warnings)
