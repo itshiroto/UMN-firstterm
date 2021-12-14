@@ -4,50 +4,52 @@ The top-level auxiliary file: Civics-UAS.aux
 The style file: plainnat.bst
 Database file #1: ../../ref/library-legacy.bib
 Warning--empty year in alaidrusTransparansiMinimKepentingan
-Warning--empty journal in setiadiKORUPSIDIINDONESIA
-Warning--empty year in setiadiKORUPSIDIINDONESIA
-Warning--empty year in setiadiKORUPSIDIINDONESIA
+Warning--empty year in badanpusatpengembangandanpembinaanbahasaKorupsi
+Warning--empty journal in dwiputriantiMEMAHAMISTRATEGIPEMBERANTASAN
+Warning--empty year in dwiputriantiMEMAHAMISTRATEGIPEMBERANTASAN
+Warning--empty year in dwiputriantiMEMAHAMISTRATEGIPEMBERANTASAN
+Warning--empty year in izzudinAlasanKenapaKorupsi
 Warning--empty journal in setiadiKORUPSIDIINDONESIA2018
 Warning--empty year in transparencyinternationalGrandCorruptionOur
-You've used 17 entries,
+You've used 23 entries,
             2773 wiz_defined-function locations,
-            722 strings with 8331 characters,
-and the built_in function-call counts, 6299 in all, are:
-= -- 594
-> -- 196
-< -- 20
-+ -- 75
-- -- 58
-* -- 402
-:= -- 965
-add.period$ -- 65
-call.type$ -- 17
-change.case$ -- 68
-chr.to.int$ -- 17
-cite$ -- 40
-duplicate$ -- 333
-empty$ -- 618
-format.name$ -- 79
-if$ -- 1348
+            764 strings with 9947 characters,
+and the built_in function-call counts, 8225 in all, are:
+= -- 768
+> -- 267
+< -- 25
++ -- 102
+- -- 79
+* -- 520
+:= -- 1262
+add.period$ -- 83
+call.type$ -- 23
+change.case$ -- 93
+chr.to.int$ -- 23
+cite$ -- 54
+duplicate$ -- 427
+empty$ -- 816
+format.name$ -- 108
+if$ -- 1752
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 13
-newline$ -- 106
-num.names$ -- 70
-pop$ -- 169
+missing$ -- 15
+newline$ -- 136
+num.names$ -- 94
+pop$ -- 233
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 72
 quote$ -- 0
-skip$ -- 235
+skip$ -- 309
 stack$ -- 0
-substring$ -- 215
-swap$ -- 41
-text.length$ -- 3
+substring$ -- 258
+swap$ -- 44
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 177
-warning$ -- 6
-while$ -- 69
+type$ -- 243
+warning$ -- 8
+while$ -- 90
 width$ -- 0
-write$ -- 244
-(There were 6 warnings)
+write$ -- 316
+(There were 8 warnings)

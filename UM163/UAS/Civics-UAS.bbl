@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -21,6 +21,11 @@ Fadiyah Alaidrus.
 \newblock
   https://tirto.id/transparansi-minim-kepentingan-politik-dinilai-picu-korupsi-bumn-efQd.
 
+\bibitem[{Badan Pusat Pengembangan dan Pembinaan
+  Bahasa}()]{badanpusatpengembangandanpembinaanbahasaKorupsi}
+{Badan Pusat Pengembangan dan Pembinaan Bahasa}.
+\newblock {Korupsi}.
+
 \bibitem[Demsetz(1974)]{demsetzTheoryPropertyRights1974}
 Harold Demsetz.
 \newblock Toward a {{Theory}} of {{Property Rights}}.
@@ -30,6 +35,25 @@ Harold Demsetz.
 \newblock ISBN 978-1-349-41750-6 978-0-230-52321-0.
 \newblock \doi{10.1057/9780230523210_9}.
 
+\bibitem[Dwiputrianti()]{dwiputriantiMEMAHAMISTRATEGIPEMBERANTASAN}
+Septiana Dwiputrianti.
+\newblock {{MEMAHAMI STRATEGI PEMBERANTASAN KORUPSI DI INDONESIA}} |
+  {{Dwiputrianti}} | {{Jurnal Ilmu Administrasi}}: {{Media Pengembangan Ilmu}}
+  dan {{Praktek Administrasi}}.
+
+\bibitem[Firdausi(2017)]{firdausiJatuhBangunLembaga2017}
+Fadrik~Aziz Firdausi.
+\newblock {Jatuh Bangun Lembaga Pemberantasan Korupsi}.
+\newblock
+  https://historia.id/politik/articles/jatuh-bangun-lembaga-pemberantasan-korupsi-PGjgB,
+  April 2017.
+
+\bibitem[{Izzudin}()]{izzudinAlasanKenapaKorupsi}
+{Izzudin}.
+\newblock {Alasan Kenapa Korupsi Masih Terus Terjadi di Indonesia}.
+\newblock
+  https://kumparan.com/temali/alasan-kenapa-korupsi-masih-terus-terjadi-di-indonesia-1ruDHHEQE2g.
+
 \bibitem[Jain(2001)]{jainCorruptionReview2001}
 Arvind~K. Jain.
 \newblock Corruption: {{A Review}}.
@@ -37,6 +61,14 @@ Arvind~K. Jain.
   71--121, 2001.
 \newblock ISSN 1467-6419.
 \newblock \doi{10.1111/1467-6419.00133}.
+
+\bibitem[Javier(2021)]{javierICWAngkaPenindakan2021}
+Faisal Javier.
+\newblock {{ICW}}: {{Angka Penindakan Kasus Korupsi Semester}} 1 2021 {{Naik
+  Jika Dibandingkan Tahun Sebelumnya}}.
+\newblock
+  https://data.tempo.co/data/1208/icw-angka-penindakan-kasus-korupsi-semester-1-2021-naik-jika-dibandingkan-tahun-sebelumnya,
+  September 2021.
 
 \bibitem[La~Porta(1999)]{laportaQualityGovernment1999}
 R~La~Porta.
@@ -76,12 +108,6 @@ Dian~Harni Saputri.
   https://nasional.tempo.co/read/692946/kenapa-hukuman-koruptor-ringan-ini-penyebabnya,
   August 2015.
 
-\bibitem[Setiadi()]{setiadiKORUPSIDIINDONESIA}
-Wicipto Setiadi.
-\newblock {KORUPSI DI INDONESIA (Penyebab, Bahaya, Hambatan dan Upaya
-  Pemberantasan, Serta Regulasi)}.
-\newblock page~14.
-
 \bibitem[Setiadi(2018)]{setiadiKORUPSIDIINDONESIA2018}
 Wicipto Setiadi.
 \newblock {KORUPSI DI INDONESIA (Penyebab, Bahaya, Hambatan dan Upaya
@@ -96,12 +122,27 @@ A.~Shleifer and R.~W. Vishny.
 \newblock ISSN 0033-5533, 1531-4650.
 \newblock \doi{10.2307/2118402}.
 
+\bibitem[Suparmo(2016)]{suparmo2016transformasi}
+Ludwig Suparmo.
+\newblock Transformasi budaya perusahaan kelompok kompas gramedia.
+\newblock \emph{Inter Komunika: Jurnal Komunikasi}, 1\penalty0 (1):\penalty0
+  12--27, 2016.
+
 \bibitem[Svensson(2005)]{svenssonEightQuestionsCorruption2005}
 Jakob Svensson.
 \newblock Eight {{Questions}} about {{Corruption}}.
 \newblock \emph{The Journal of Economic Perspectives}, 19\penalty0
   (3):\penalty0 19--42, 2005.
 \newblock ISSN 0895-3309.
+
+\bibitem[Syarief and Prastiyo(2018)]{syariefKorupsiKolektifKorupsi2018}
+Ridwan Arifin~Oemara Syarief and Devanda Prastiyo.
+\newblock Korupsi {{Kolektif}} ({{Korupsi Berjamaah}}) di {{Indonesia}}:
+  {{Antara Faktor Penyebab}} dan {{Penegakan Hukum}}.
+\newblock \emph{Jurnal Hukum Respublica}, 18\penalty0 (1):\penalty0 1--13,
+  2018.
+\newblock ISSN 2615-6733.
+\newblock \doi{10.31849/respublica.v18i1.3947}.
 
 \bibitem[{Transparency
   International}()]{transparencyinternationalGrandCorruptionOur}
