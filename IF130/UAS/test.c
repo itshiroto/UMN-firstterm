@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello World");
+    printf("This is commited automatically when saved\n");
     return 0;
 }
