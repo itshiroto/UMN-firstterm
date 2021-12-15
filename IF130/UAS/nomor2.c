@@ -62,7 +62,7 @@ void triangle() {
 
 void circle() {
     int jari;
-    const pi = 3.14;
+    const int pi = 3.14;
     float keliling, luas;
 
     printf("Input jari-jari: ");
