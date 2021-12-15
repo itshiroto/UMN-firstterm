@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 void printMenu() {
-    printf("1. Rectangle");
-    printf("2. Triangle");
-    printf("3. Circle");
-    printf("4. Circle");
+    printf("1. Rectangle\n");
+    printf("2. Triangle\n");
+    printf("3. Circle\n");
+    printf("4. Exit\n");
 }
 
 int isDigit(char *input){
@@ -29,17 +29,17 @@ int convertToInt(char *str){
 }
 
 void printResult(float kel, float sisi) {
-    printf("Keliling = %.2f", kel);
-    printf("Sisi = %.2f", sisi);
+    printf("Keliling = %.2f\n", kel);
+    printf("Sisi = %.2f\n", sisi);
 }
 
 void rectangle() {
     int panjang, lebar;
     float keliling, luas;
 
-    printf("Input Panjang: ");
+    printf("Input Panjang: \n");
     scanf("%i", &panjang);
-    printf("Input Lebar: ");
+    printf("Input Lebar: \n");
     scanf("%i", &lebar);
 
     keliling = 2 * (panjang * lebar);
@@ -51,7 +51,7 @@ void triangle() {
     int sisi;
     float keliling, luas;
 
-    printf("Input sisi: ");
+    printf("Input sisi: \n");
     scanf("%i", &sisi);
 
     keliling = 3 * sisi;
@@ -65,7 +65,7 @@ void circle() {
     const int pi = 3.14;
     float keliling, luas;
 
-    printf("Input jari-jari: ");
+    printf("Input jari-jari: \n");
     scanf("%i", &jari);
 
     keliling = 2 * pi * jari;
