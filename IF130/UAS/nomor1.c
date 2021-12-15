@@ -6,7 +6,8 @@ int main() {
     scanf("%s", password);
     // printf("Password: %s", password);
     int count = 0;
-    while(*password[count] != '\0') {
+    while(*password != '\0') {
+        password++;
         count++;
     }
     printf("%i", count);
