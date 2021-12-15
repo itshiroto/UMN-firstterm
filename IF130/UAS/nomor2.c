@@ -43,7 +43,7 @@ void rectangle() {
     scanf("%c%*c", &pchar);
     printf("Input Lebar: ");
     scanf("%c%*c", &lchar);
-    if ((isDigit(pchar) == 0 || isDigit(lchar) == 0)) {
+    if (!(isDigit(pchar) == 1 || isDigit(lchar) == 1)) {
         printf("Input bukan angka\n");
         return;
     }
@@ -62,7 +62,7 @@ void triangle() {
     printf("Input sisi: ");
     scanf("%c%*c", &schar);
 
-    if (!(isDigit(schar) == 0)) {
+    if (!(isDigit(schar) == 1)) {
         printf("Input bukan angka\n");
         return;
     }
@@ -82,7 +82,7 @@ void circle() {
     printf("Input jari-jari: ");
     scanf("%c%*c", &jchar);
 
-    if (!(isDigit(jchar) == 0)) {
+    if (!(isDigit(jchar) == 1)) {
         printf("Input bukan angka\n");
         return;
     }
