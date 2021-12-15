@@ -40,9 +40,9 @@ void rectangle() {
     float keliling, luas;
 
     printf("Input Panjang: ");
-    scanf("%c", &pchar);
+    scanf("%c%*c", &pchar);
     printf("Input Lebar: ");
-    scanf("%c", &lchar);
+    scanf("%c%*c", &lchar);
     if (!(isDigit(pchar) == 0 || isDigit(lchar) == 0)) {
         printf("Input bukan angka\n");
         return;
