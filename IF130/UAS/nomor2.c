@@ -53,7 +53,7 @@ void triangle() {
     int sisi;
     float keliling, luas;
 
-    printf("Input sisi: \n");
+    printf("Input sisi: ");
     scanf("%i", &sisi);
 
     keliling = 3 * sisi;
@@ -67,7 +67,7 @@ void circle() {
     const int pi = 3.14;
     float keliling, luas;
 
-    printf("Input jari-jari: \n");
+    printf("Input jari-jari: ");
     scanf("%i", &jari);
 
     keliling = 2 * pi * jari;
