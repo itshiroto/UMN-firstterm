@@ -11,12 +11,13 @@ int main() {
     int upper = 0;
     int symbol = 0;
     for(count = 0; password != '\0'; count++) {
+        if (password[count] == '\0') break;
         int isSymbol = 0;
         password[count] >= '0' && password[count] <= '9' ? number++ : isSymbol++;
         password[count] >= 'A' && password[count] <= 'Z' ? upper++ : isSymbol++;
         password[count] >= 'a' && password[count] <= 'z' ? lower++ : isSymbol++;
         if (isSymbol >= 3) symbol++;
     }
-    printf("%i %i %i %i %i", number, lower, upper, symbol);
+    printf("%i %i %i %i %i", number, lower, upper, symbol, count);
     return 0;
 }
