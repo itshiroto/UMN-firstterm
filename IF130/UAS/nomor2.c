@@ -36,6 +36,7 @@ void rectangle(int sisi) {
     float keliling, luas;
     keliling = sisi * 4;
     luas = sisi * sisi;
+    printResult(keliling, luas);
 }
 
 
