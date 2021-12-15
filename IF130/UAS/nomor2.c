@@ -30,8 +30,9 @@ int convertToInt(char *str){
 }
 
 void printResult(float kel, float sisi) {
+    printf("\n");
     printf("Keliling = %.2f\n", kel);
-    printf("Sisi = %.2f\n\n", sisi);
+    printf("Sisi = %.2f\n", sisi);
 }
 
 void rectangle() {
