@@ -12,9 +12,9 @@ int main() {
     int isSymbol = 0;
     int symbol = 0;
     while(password[count] != '\0') {
-        password[count] >= '0' && password[count] <= '9' ? number++ : isSymbol = 1;
-        password[count] >= 'A' && password[count] <= 'Z' ? upper++ : isSymbol = 1;
-        password[count] >= 'a' && password[count] <= 'z' ? lower++ : isSymbol = 1;
+        password[count] >= '0' && password[count] <= '9' ? number++ : isSymbol++, continue;
+        password[count] >= 'A' && password[count] <= 'Z' ? upper++ : isSymbol++, continue;
+        password[count] >= 'a' && password[count] <= 'z' ? lower++ : isSymbol++, continue;
         isSymbol != 0 ? symbol++ : continue;
         count++;
     }
