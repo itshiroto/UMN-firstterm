@@ -39,6 +39,9 @@ void rectangle(int sisi) {
     printResult(keliling, luas);
 }
 
+void triangle(int sisi) {
+    float keliling
+
 
 int main() {
     int menu;
