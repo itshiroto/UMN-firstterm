@@ -6,9 +6,31 @@ void printMenu() {
     printf("3. Circle");
 }
 
+int isdigit(char *input){
+    int i = 0;
+    while (input[i] != '\0') {
+      // check if element i of a string is a character based on ASCII code.
+      if (!(input[i] >= 48 && input[i] <= 57)) return 1; 
+      i++;
+    }
+    return 0;
+}
+
+int convertToInt(char *str){
+  int i = 0, result = 0;
+  while (str[i] != '\0') {
+    // Each i element in str variable is subtracted by 48 ('0' character on ASCII)
+    // to get the real number and then added to result variable.
+    result = result * 10 + str[i] - '0'; 
+    i++;
+  }
+  return result;
+}
+
 int main() {
     int menu;
-    printf("Pilih Menu");
+    printMenu();
+    printf("Pilih Menu: ");
     scanf("%i", &menu);
     return 0;
 }
