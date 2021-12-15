@@ -43,7 +43,7 @@ void rectangle() {
     scanf("%c%*c", &pchar);
     printf("Input Lebar: ");
     scanf("%c%*c", &lchar);
-    if (!(isDigit(pchar) == 0 || isDigit(lchar) == 0)) {
+    if ((isDigit(pchar) == 0 || isDigit(lchar) == 0)) {
         printf("Input bukan angka\n");
         return;
     }
