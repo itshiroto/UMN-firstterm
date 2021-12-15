@@ -49,7 +49,6 @@ void rectangle() {
     }
     int panjang = convertToInt(pchar);
     int lebar = convertToInt(lchar);
-    
 
     keliling = 2 * (panjang * lebar);
     luas = panjang * lebar;
