@@ -62,7 +62,7 @@ void triangle() {
     printf("Input sisi: ");
     scanf("%c%*c", &schar);
 
-    if (!(isDigit(lchar) == 0)) {
+    if (!(isDigit(schar) == 0)) {
         printf("Input bukan angka\n");
         return;
     }
