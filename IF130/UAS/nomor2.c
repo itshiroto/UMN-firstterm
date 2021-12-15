@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 void printMenu() {
+    printf("\n");
     printf("1. Rectangle\n");
     printf("2. Triangle\n");
     printf("3. Circle\n");
@@ -30,16 +31,16 @@ int convertToInt(char *str){
 
 void printResult(float kel, float sisi) {
     printf("Keliling = %.2f\n", kel);
-    printf("Sisi = %.2f\n", sisi);
+    printf("Sisi = %.2f\n\n", sisi);
 }
 
 void rectangle() {
     int panjang, lebar;
     float keliling, luas;
 
-    printf("Input Panjang: \n");
+    printf("Input Panjang: ");
     scanf("%i", &panjang);
-    printf("Input Lebar: \n");
+    printf("Input Lebar: ");
     scanf("%i", &lebar);
 
     keliling = 2 * (panjang * lebar);
