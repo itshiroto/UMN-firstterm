@@ -87,6 +87,8 @@ void circle() {
         return;
     }
 
+    int jari = convertToInt(jchar);
+
     keliling = 2 * pi * jari;
     luas = pi * jari * jari;
 
