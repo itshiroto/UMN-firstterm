@@ -39,7 +39,7 @@ void rectangle() {
     scanf("%i", &panjang);
     printf("Input Lebar: ");
     scanf("%i", &lebar);
-    keliling = 2 * panjang * lebar;
+    keliling = 2 * (panjang * lebar);
     luas = panjang * lebar;
     printResult(keliling, luas);
 }
