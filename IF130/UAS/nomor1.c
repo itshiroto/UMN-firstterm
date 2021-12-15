@@ -2,7 +2,8 @@
 
 int getLen(char **input) {
     int count;
-    while (*input[count] != '\0') {
+    while (*input != '\0') {
+        input++;
         count++;
     }
     return count;
