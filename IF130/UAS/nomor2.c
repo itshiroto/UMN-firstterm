@@ -36,7 +36,7 @@ void printResult(float kel, float sisi) {
 }
 
 void rectangle() {
-    char pchar, lchar;
+    char pchar[10], lchar[10];
     float keliling, luas;
 
     printf("Input Panjang: ");
