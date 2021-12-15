@@ -1,10 +1,6 @@
 #include<stdio.h>
 
-int main() {
-    char password[64];
-    printf("Input Password: ");
-    scanf("%s", password);
-    // printf("Password: %s", password);
+int checkPass(char password[]) {
     int count = 0;
     int number = 0;
     int lower = 0;
@@ -18,6 +14,17 @@ int main() {
         password[count] >= 'a' && password[count] <= 'z' ? lower++ : isSymbol++;
         if (isSymbol >= 3) symbol++;
     }
-    printf("%i %i %i %i %i", number, lower, upper, symbol, count);
+    // printf("%i %i %i %i %i", number, lower, upper, symbol, count);
+    if (count < 8 || number < 1 || lower < 1 || upper < 1 || symbol > 0) {
+        return 1;
     return 0;
 }
+
+int main() {
+    char password[64];
+    printf("Input Password: ");
+    scanf("%s", password);
+    checkPass(password) ? printf("Invalid") : printf("Valid");
+    return 0;
+}
+
