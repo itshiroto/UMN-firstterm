@@ -76,7 +76,7 @@ void triangle() {
 
 void circle() {
     char jchar[10];
-    const int pi = 3.14;
+    const float pi = 3.14;
     float keliling, luas;
 
     printf("Input jari-jari: ");
