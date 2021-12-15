@@ -14,6 +14,5 @@ int main() {
     scanf("%s", &password);
     // printf("Password: %s", password);
     printf("%i", getLen(password));
-    // for (int i = 0; i < 
     return 0;
 }
