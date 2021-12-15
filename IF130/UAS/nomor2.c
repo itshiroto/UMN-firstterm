@@ -47,6 +47,8 @@ void rectangle() {
         printf("Input bukan angka\n");
         return;
     }
+    int panjang = convertToInt(pchar);
+    int lebar = convertToInt(lchar);
     
 
     keliling = 2 * (panjang * lebar);
