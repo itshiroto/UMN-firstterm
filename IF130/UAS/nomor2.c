@@ -74,19 +74,17 @@ void circle() {
     printResult(keliling, luas);
 }
 
-int inputMenu(int menu) {
+int inputMenu() {
     printf("Pilih Menu: ");
     scanf("%i", &menu);
     return menu;
 }
 
 int main() {
-    int menu;
     int keepGoing = 1;
     while (keepGoing != 0) {
         printMenu();
-        inputMenu(menu);
-        switch(menu) {
+        switch(inputMenu()) {
             case 1: rectangle(); break;
             case 2: triangle(); break;
             case 3: circle(); break;
