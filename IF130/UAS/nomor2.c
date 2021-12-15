@@ -82,7 +82,8 @@ int inputMenu(int menu) {
 
 int main() {
     int menu;
-    while (menu != 4) {
+    int keepGoing = 1
+    while (keepGoing != 0) {
         printMenu();
         inputMenu(menu);
         switch(menu) {
