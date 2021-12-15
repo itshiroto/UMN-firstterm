@@ -15,7 +15,7 @@ int main() {
         password[count] >= '0' && password[count] <= '9' ? number++ : isSymbol++;
         password[count] >= 'A' && password[count] <= 'Z' ? upper++ : isSymbol++;
         password[count] >= 'a' && password[count] <= 'z' ? lower++ : isSymbol++;
-        isSymbol != 0 ? symbol++ : return;
+        isSymbol != 0 ? symbol++ : symbol;
     }
     printf("%i %i %i %i %i", number, lower, upper, symbol, count);
     return 0;
