@@ -7,7 +7,7 @@ void printMenu() {
     printf("4. Circle");
 }
 
-int isdigit(char *input){
+int isDigit(char *input){
     int i = 0;
     while (input[i] != '\0') {
       // check if element i of a string is a character based on ASCII code.
@@ -74,7 +74,7 @@ void circle() {
     printResult(keliling, luas);
 }
 
-int inputMenu(menu) {
+int inputMenu(int menu) {
     printf("Pilih Menu: ");
     scanf("%i", &menu);
     return menu;
