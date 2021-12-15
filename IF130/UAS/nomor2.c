@@ -40,9 +40,9 @@ void rectangle() {
     float keliling, luas;
 
     printf("Input Panjang: ");
-    scanf("%c%*c", &pchar);
+    scanf("%s", &pchar);
     printf("Input Lebar: ");
-    scanf("%c%*c", &lchar);
+    scanf("%s", &lchar);
     if (!(isDigit(pchar) == 1 || isDigit(lchar) == 1)) {
         printf("Input bukan angka\n");
         return;
@@ -60,7 +60,7 @@ void triangle() {
     float keliling, luas;
 
     printf("Input sisi: ");
-    scanf("%c%*c", &schar);
+    scanf("%s", &schar);
 
     if (!(isDigit(schar) == 1)) {
         printf("Input bukan angka\n");
@@ -80,7 +80,7 @@ void circle() {
     float keliling, luas;
 
     printf("Input jari-jari: ");
-    scanf("%c%*c", &jchar);
+    scanf("%s", &jchar);
 
     if (!(isDigit(jchar) == 1)) {
         printf("Input bukan angka\n");
