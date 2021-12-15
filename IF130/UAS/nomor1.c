@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int checkPass(char *password[]) {
+int checkPass(char password[]) {
     int count = 0;
     int number = 0;
     int lower = 0;
@@ -17,6 +17,7 @@ int checkPass(char *password[]) {
     // printf("%i %i %i %i %i", number, lower, upper, symbol, count);
     if (count < 8 || number < 1 || lower < 1 || upper < 1 || symbol > 0) {
         return 1;
+    }
     return 0;
 }
 
