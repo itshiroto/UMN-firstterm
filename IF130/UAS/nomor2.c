@@ -56,7 +56,7 @@ void rectangle() {
 }
 
 void triangle() {
-    int schar[10];
+    char schar[10];
     float keliling, luas;
 
     printf("Input sisi: ");
@@ -75,7 +75,7 @@ void triangle() {
 }
 
 void circle() {
-    int jchar[10];
+    char jchar[10];
     const int pi = 3.14;
     float keliling, luas;
 
