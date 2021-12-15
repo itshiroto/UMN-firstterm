@@ -6,8 +6,8 @@ int checkPass(char password[]) {
     int lower = 0;
     int upper = 0;
     int symbol = 0;
-    for(count = 0; password != '\0'; count++) {
-        if (password[count] == '\0') break;
+    for(count = 0; *password != '\0'; count++) {
+        if (*password[count] == '\0') break;
         int isSymbol = 0;
         password[count] >= '0' && password[count] <= '9' ? number++ : isSymbol++;
         password[count] >= 'A' && password[count] <= 'Z' ? upper++ : isSymbol++;
