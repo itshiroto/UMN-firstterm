@@ -56,11 +56,17 @@ void rectangle() {
 }
 
 void triangle() {
-    int sisi;
+    int schar[10];
     float keliling, luas;
 
     printf("Input sisi: ");
     scanf("%i", &sisi);
+
+    if (!(isDigit(lchar) == 0)) {
+        printf("Input bukan angka\n");
+        return;
+    }
+    int sisi = convertToInt(schar);
 
     keliling = 3 * sisi;
     luas = (sisi * 2) / 2;
