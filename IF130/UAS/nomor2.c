@@ -12,7 +12,7 @@ int isDigit(char *input){
     int i = 0;
     while (input[i] != '\0') {
       // check if element i of a string is a character based on ASCII code.
-      if (!(input[i] >= 48 && input[i] <= 57)) return 1; 
+      if (!(input[i] >= '0' && input[i] <= '9')) return 1; 
       i++;
     }
     return 0;
