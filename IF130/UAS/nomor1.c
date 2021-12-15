@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-    char *password[100];
+    char *password[];
     printf("Input Password: ");
     scanf("%s", &password);
     printf("Password: %s", password);
