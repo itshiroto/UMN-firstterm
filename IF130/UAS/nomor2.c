@@ -75,6 +75,7 @@ void circle() {
 }
 
 int inputMenu() {
+    int menu;
     printf("Pilih Menu: ");
     scanf("%i", &menu);
     return menu;
