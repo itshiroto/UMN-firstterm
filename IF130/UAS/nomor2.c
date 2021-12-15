@@ -47,8 +47,17 @@ void rectangle() {
 }
 
 void triangle() {
-    float keliling
+    int sisi;
+    float keliling, luas;
 
+    printf("Input sisi: ");
+    scanf("%i", &sisi);
+
+    keliling = 3 * sisi;
+    luas = (sisi * 2) / 2;
+
+    printResult(keliling, luas);
+}
 
 int main() {
     int menu;
