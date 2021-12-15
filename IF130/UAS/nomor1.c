@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int getLen(const char *input) {
+int getLen(char *input) {
     int count;
     while (*input != '\0') {
         input++;
