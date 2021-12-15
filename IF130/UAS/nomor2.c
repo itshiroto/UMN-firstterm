@@ -89,7 +89,7 @@ int main() {
             case 1: rectangle(); break;
             case 2: triangle(); break;
             case 3: circle(); break;
-            case 4: return 0;
+            case 4: keepGoing = 0;
             default: printf("Menu Tidak Ditemukan"); break;
         }
     }
