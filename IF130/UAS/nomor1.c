@@ -5,7 +5,7 @@ int main() {
     printf("Input Password: ");
     scanf("%s", password);
     // printf("Password: %s", password);
-    int count;
+    int count = 0;
     while(password[count] != '\0') {
         count++;
     }
