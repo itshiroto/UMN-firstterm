@@ -60,7 +60,7 @@ void triangle() {
     float keliling, luas;
 
     printf("Input sisi: ");
-    scanf("%i", &sisi);
+    scanf("%c%*c", &schar);
 
     if (!(isDigit(lchar) == 0)) {
         printf("Input bukan angka\n");
@@ -75,12 +75,17 @@ void triangle() {
 }
 
 void circle() {
-    int jari;
+    int jchar[10];
     const int pi = 3.14;
     float keliling, luas;
 
     printf("Input jari-jari: ");
-    scanf("%i", &jari);
+    scanf("%c%*c", &jchar);
+
+    if (!(isDigit(lchar) == 0)) {
+        printf("Input bukan angka\n");
+        return;
+    }
 
     keliling = 2 * pi * jari;
     luas = pi * jari * jari;
