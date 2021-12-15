@@ -36,13 +36,18 @@ void printResult(float kel, float sisi) {
 }
 
 void rectangle() {
-    int panjang, lebar;
+    char pchar, lchar;
     float keliling, luas;
 
     printf("Input Panjang: ");
-    scanf("%i", &panjang);
+    scanf("%c", &pchar);
     printf("Input Lebar: ");
-    scanf("%i", &lebar);
+    scanf("%c", &lchar);
+    if (!(isDigit(panjang) == 0 || isDigit(lebar) == 0)) {
+        printf("Input bukan angka\n");
+        return;
+    }
+    
 
     keliling = 2 * (panjang * lebar);
     luas = panjang * lebar;
