@@ -82,7 +82,7 @@ void circle() {
     printf("Input jari-jari: ");
     scanf("%c%*c", &jchar);
 
-    if (!(isDigit(lchar) == 0)) {
+    if (!(isDigit(jchar) == 0)) {
         printf("Input bukan angka\n");
         return;
     }
