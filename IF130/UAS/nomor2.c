@@ -27,6 +27,18 @@ int convertToInt(char *str){
   return result;
 }
 
+void printResult(float kel, float sisi) {
+    printf("Keliling = %.2f", kel);
+    printf("Sisi = %.2f", sisi);
+}
+
+void rectangle(int sisi) {
+    float keliling, luas;
+    keliling = sisi * 4;
+    luas = sisi * sisi;
+}
+
+
 int main() {
     int menu;
     printMenu();
