@@ -35,10 +35,12 @@ void printResult(float kel, float sisi) {
 void rectangle() {
     int panjang, lebar;
     float keliling, luas;
+
     printf("Input Panjang: ");
     scanf("%i", &panjang);
     printf("Input Lebar: ");
     scanf("%i", &lebar);
+
     keliling = 2 * (panjang * lebar);
     luas = panjang * lebar;
     printResult(keliling, luas);
