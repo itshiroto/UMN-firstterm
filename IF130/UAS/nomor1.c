@@ -3,7 +3,7 @@
 int main() {
     char *password[64];
     printf("Input Password: ");
-    scanf("%s", password);
+    scanf("%s", &password);
     // printf("Password: %s", password);
     int count = 0;
     while(*password != '\0') {
