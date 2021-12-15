@@ -1,19 +1,14 @@
 #include<stdio.h>
 
-int getLen(char *input) {
-    int count;
-    while (*input != '\0') {
-        input++;
-        count++;
-    }
-    return count;
-
-
 int main() {
     char *password[64];
     printf("Input Password: ");
     scanf("%s", password);
     // printf("Password: %s", password);
-    printf("%i", getLen(password));
+    int count = 0;
+    while(password[count] != '\0') {
+        count++;
+    }
+    printf("%i", count);
     return 0;
 }
