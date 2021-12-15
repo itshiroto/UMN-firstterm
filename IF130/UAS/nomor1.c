@@ -18,6 +18,6 @@ int main() {
         isSymbol != 0 ? symbol++ : continue;
         count++;
     }
-    printf("%i", count);
+    printf("%i %i %i %i %i", number, lower, upper, symbol, count);
     return 0;
 }
