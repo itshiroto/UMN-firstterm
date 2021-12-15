@@ -4,6 +4,7 @@ void printMenu() {
     printf("1. Rectangle");
     printf("2. Triangle");
     printf("3. Circle");
+    printf("4. Circle");
 }
 
 int isdigit(char *input){
@@ -59,10 +60,37 @@ void triangle() {
     printResult(keliling, luas);
 }
 
-int main() {
-    int menu;
-    printMenu();
+void circle() {
+    int jari;
+    const pi = 3.14;
+    float keliling, luas;
+
+    printf("Input jari-jari: ");
+    scanf("%i", &jari);
+
+    keliling = 2 * pi * jari;
+    luas = pi * jari * jari;
+
+    printResult(keliling, luas);
+}
+
+int inputMenu(menu) {
     printf("Pilih Menu: ");
     scanf("%i", &menu);
+    return menu;
+
+int main() {
+    int menu;
+    while (menu != 4) {
+        printMenu();
+        inputMenu(menu);
+        switch(menu) {
+            case 1: rectangle(); break;
+            case 2: triangle(); break;
+            case 3: circle(); break;
+            case 4: return 0;
+            default: printf("Menu Tidak Ditemukan"); break;
+        }
+    }
     return 0;
 }
