@@ -78,6 +78,7 @@ int inputMenu(menu) {
     printf("Pilih Menu: ");
     scanf("%i", &menu);
     return menu;
+}
 
 int main() {
     int menu;
