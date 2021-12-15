@@ -32,14 +32,19 @@ void printResult(float kel, float sisi) {
     printf("Sisi = %.2f", sisi);
 }
 
-void rectangle(int sisi) {
+void rectangle() {
+    int panjang, lebar;
     float keliling, luas;
-    keliling = sisi * 4;
-    luas = sisi * sisi;
+    printf("Input Panjang: ");
+    scanf("%i", &panjang);
+    printf("Input Lebar: ");
+    scanf("%i", &lebar);
+    keliling = 2 * panjang * lebar;
+    luas = panjang * lebar;
     printResult(keliling, luas);
 }
 
-void triangle(int sisi) {
+void triangle() {
     float keliling
 
 
